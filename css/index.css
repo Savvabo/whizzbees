@@ -1,0 +1,125 @@
+/*.sidebar-menu a:hover span {*/
+/*    color: #000;*/
+/*    !*border-right: 3px solid black;*!*/
+/*}*/
+/*.sidebar-menu a {*/
+/*    color: black;*/
+/*}*/
+/*.sidebar-menu .active span,*/
+/*.sidebar-menu .active i {*/
+/*    color: black !important;*/
+/*}*/
+
+
+/*              -------------------------------------------------                MAINCONTENT              ------------------------------------------------------------------------------*/
+.next-page-link {
+    display: block;
+    position: absolute;
+    bottom: 7px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    z-index: 900;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+.next-page-link img {
+    display: block;
+    height: 53px;
+    width: 26px;
+}
+
+.centered-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -80%);
+    text-align: center;
+    z-index: 900;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+.main-logo {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -10%);
+    /* width: 8vw; */
+    /* height: 8vw; */
+    /*width: 93px;*/
+    /*height: 92px;*/
+    width: 7vw;
+    height: 11vh;
+    display: block;
+    margin-bottom: 15px;
+    /* margin-bottom: 1.5vw; */
+    z-index: 900;
+}
+.main-logo img {
+    width: 7vw;
+    height: 11vh;
+    display: block;
+
+}
+.main-logo-title {
+    /*font-size: 5.9vw;*/
+    margin-bottom: 1vw;
+    display: inline-block;
+    font-size: 80px;
+    color: black;
+    line-height: 80px;
+    text-transform: uppercase;
+    font-family: 'Chivo-Light';
+    z-index: 900;
+    position: relative;
+}
+.sub-logo-title {
+    font-size: 26px;
+    /*font-size: 1.9vw;*/
+    line-height: 41px;
+    z-index: 900;
+    position: relative;
+}
+.main-button {
+    font-size: 15px;
+    /*font-size: 1.1vw;*/
+    color: black;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 11px 25px;
+    /*padding: .7vw 1.8vw;*/
+    -webkit-box-shadow: 0px 3px 40px 0px rgba(149,90,0,0.38);
+    -moz-box-shadow: 0px 3px 40px 0px rgba(149,90,0,0.38);
+    box-shadow: 0px 3px 40px 0px rgba(149,90,0,0.38);
+    z-index: 900;
+    position: relative;
+}
+.main-button-centered {
+    position: absolute;
+    bottom: 28%;
+    left: 50%;
+    margin-right: -50%;
+    /*transform: translate(-50%, 0%);*/
+    transform: translate(-50%, -115%);
+    text-align: center;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+
+}
+
+.main-button:hover {
+    color: black;
+    text-decoration: none;
+}

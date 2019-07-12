@@ -1,0 +1,126 @@
+.main-content-services {
+    padding: 0 10vw 0 11vw;
+}
+.service-shadow {
+    -webkit-box-shadow: 9px 0px 40px 0px rgba(22,24,28,1) !important;
+    -moz-box-shadow: 9px 0px 40px 0px rgba(22,24,28,1) !important;
+    box-shadow: 9px 0px 40px 0px rgba(22,24,28,1) !important;
+}
+.service-main-nav {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3vw;
+    position: relative;
+    top: 20%;
+}
+.service-main-nav-item {
+    /*background-color: #1B1D21;*/
+    /*height: 238px;*/
+    height: 31vh;
+    position: relative;
+    top: 0;
+    padding: 2rem;
+    cursor: pointer;
+    background-color: #1C1F24;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.android-dev:hover {
+    background-image: url(../images/android-development.png);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
+
+.ios-dev:hover {
+    background-image: url(../images/ios-dev.png);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
+.design-dev:hover {
+    background-image: url(../images/design-dev.png);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
+.web-dev:hover {
+    background-image: url(../images/web-dev.png);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
+.service-main-nav-item a {
+    height: 100%;
+    display: block;
+    text-decoration: none;
+}
+.service-main-nav-item a:hover {
+    text-decoration: none;
+}
+.title-wrapper {
+    position: absolute;
+    top: 15%;
+    left: -8%;
+    display: block;
+}
+.main-title {
+    font-size: 31px;
+    opacity: 1;
+    font-family: 'Sailec-Light';
+    color: white;
+}
+.service-numerator {
+    opacity: .2;
+    color: #CCCCCC;
+    font-family: 'Sailec-Medium';
+    font-size: 20px;
+}
+.title-wrapper i {
+    padding-left: 10px;
+}
+.service-main-nav-item-p {
+    font-size: 14px;
+    font-family: 'Sailec-Light';
+    color: white;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    position: relative;
+    top: 10rem;
+    display: none;
+}
+.service-main-nav-item:hover .service-main-nav-item-p {
+    display: inline-block !important;
+}
+.some-row {
+    display: none;
+}
+.service-main-nav-item .active .service-numerator {
+   color: #FFCC00 !important;
+    opacity: 1 !important;
+}
+.service-main-nav-item .active .some-row {
+    display: inline-block;
+    color: #FFCC00;
+}
+.service-main-nav-item:hover .service-numerator {
+    color: #FFCC00 !important;
+    opacity: 1 !important;
+}
+.service-main-nav-item:hover .some-row {
+    display: inline-block;
+    color: #FFCC00;
+}
+@media screen and (max-width: 1024px) {
+    .service-main-nav-item:hover .service-main-nav-item-p,
+    .service-main-nav-item-p {
+        display: none !important;
+    }
+}

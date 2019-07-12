@@ -1,0 +1,420 @@
+.nur-background-block {
+    width: 100%;
+    height: 73vh;
+    /*height: 83vh;*/
+    background-color: #5031A9;
+    margin-bottom: 10%;
+}
+.nur-main-img,
+.nur-main-img img {
+    width: 72vw;
+    height: 75vh;
+    top: 5.8vh;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+.case-upper-title {
+    color: #A18BDF;
+}
+.project-title {
+    font-family: 'Sailec-Black';
+    font-size: 35px;
+    color: black;
+    margin: 0 auto;
+    width: max-content;
+}
+.project-title-desktop {
+    color: white !important;
+}
+.project-description {
+    font-family: 'Sailec-Light';
+    font-size: 17px;
+    color: #000;
+    margin: 20px auto 5%;
+    width: 50%;
+    text-align: center;
+}
+.used-technology-block {
+    margin: 3% auto 0;
+    text-align: center;
+}
+.nur-reg-img {
+    width: 18vw;
+}
+.nur-reg-img img {
+    width: 19vw;
+    height: 59vh;
+}
+.nur-follow-img,
+.nur-posts-img {
+    width: 25vw;
+}
+
+.nur-follow-img img,
+.nur-posts-img img {
+    width: 26vw;
+    height: 59vh;
+}
+.feature-item-wrapper {
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.feature-item {
+    display: inline-block;
+    vertical-align: top;
+    /*margin: 0 10px;*/
+}
+.feature-item span,
+.feature-item p {
+    margin-left: 1.5vw;
+}
+.feature-item-top-text {
+    font-family: 'Sailec-Bold';
+    color: black;
+    font-size: 16px;
+}
+.feature-item-bottom-text {
+    font-size: 15px;
+    font-family: 'Sailec';
+    color: black;
+}
+.nur-usr-profile-wrapper {
+    width: max-content;
+    margin: 0 auto;
+    position: relative;
+}
+.nur-usr-description {
+    border-radius: 11px;
+    background-color: #5031A9;
+    padding: 14px 13px;
+    width: 16.3vw;
+    color: white;
+    font-family: 'Sailec';
+    position: absolute;
+    font-size: 15px;
+}
+.nur-usr-description p {
+    margin-bottom: 0;
+}
+
+.nur-usr-profile {
+    border-radius: 26px;
+    border: 19px solid #EBEBEB;
+    width: 58vw;
+    height: 61vh;
+    overflow: hidden;
+}
+.nur-home-page {
+    border-radius: 26px;
+    border: 19px solid #EBEBEB;
+    width: 58vw;
+    height: 180vh;
+    overflow: hidden;
+}
+.nur-usr-profile img,
+.nur-home-page img {
+    width: 100%;
+    height: auto;
+}
+.nud-1 {
+    right: 52vw;
+    top: 14vh;
+}
+.nud-2 {
+    right: 52vw;
+    top: 31vh;
+}
+.nud-3 {
+    right: 52vw;
+    top: 49vh;
+}
+.nud-4 {
+    width: 20vw;
+    left: 52vw;
+    top: 26vh;
+}
+.nud-5 {
+    right: 52vw;
+    top: 24vh;
+}
+.nud-6 {
+    left: 52.5vw;
+    top: 76vh;
+}
+.nud-7 {
+    left: 52.5vw;
+    top: 105vh;
+}
+.nud-8 {
+    right: 52vw;
+    top: 142vh;
+}
+
+.tool-img img {
+    width: 153vw;
+    height: 100%;
+    /* margin: 26px auto 11px; */
+    position: relative;
+    left: -25vw;
+}
+.tool-img {
+    width: 100%;
+    overflow: hidden;
+    height: 54.5vh;
+    /*height: 54.5vh;*/
+    margin: 53px 0 22px;
+}
+.tool-wrapper p {
+    font-family: 'Sailec';
+    font-size: 16px;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    text-align: center;
+}
+.tool-wrapper span {
+    font-family: 'Sailec-Bold';
+    font-size: 30px;
+    color: #000;
+    /*margin-left: 20vw;*/
+    margin-left: 2vw;
+}
+/*.bottom-bar {*/
+/*    padding-left: 20vw;*/
+/*    padding-top: 1vw;*/
+/*    margin-top: 10vw;*/
+/*    !*position: absolute;*!*/
+/*    !*bottom: 0;*!*/
+/*    background-color: #5031A9;*/
+/*}*/
+/*.bottom-bar span,*/
+/*.technology-bar span {*/
+/*    font-size: 33px;*/
+/*    font-family: 'Sailec-Light';*/
+/*    !*color: black;*!*/
+/*    color: white;*/
+/*    display: block;*/
+/*}*/
+/*.bottom-bar p {*/
+/*    font-size: 19px;*/
+/*    font-family: 'Sailec-Light';*/
+/*    !*color: black;*!*/
+/*    color: white;*/
+/*    opacity: .5;*/
+/*    position: relative;*/
+/*    top: .3vw;*/
+/*}*/
+/*.some-button {*/
+/*    font-size: 15px;*/
+/*    margin-top: 1vw;*/
+/*    margin-bottom: 3vw;*/
+/*    display: inline-block;*/
+/*    !*font-size: 1.1vw;*!*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*    border-radius: 30px;*/
+/*    padding: 11px 25px;*/
+/*    !*padding: .7vw 1.8vw;*!*/
+/*    -webkit-box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.38);*/
+/*    -moz-box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.38);*/
+/*    box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.38);*/
+/*    background-color: #fff;*/
+
+/*    !*position: absolute;*!*/
+/*    !*bottom: 20%;*!*/
+/*    !*left: 7%;*!*/
+/*    font-family: 'Sailec';*/
+/*}*/
+/*.some-button:hover {*/
+/*    color: white;*/
+/*}*/
+/*.some-button i {*/
+/*    padding-left: 5px;*/
+/*    color: white;*/
+/*}*/
+.project-features {
+    position: absolute;
+    width: max-content;
+    /*right: 3vw;*/
+    /*top: 15vh;*/
+    right: 2vw;
+    top: 8vh;
+}
+.nurcelceum-item {
+    width: 50%;
+    margin: 0 auto !important;
+    float: unset;
+}
+.nurcelceum-inner {
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (min-width: 1024px) {
+    .project-features-icon-mobile,
+    .project-title-mob {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .back-link {
+        left: 5vw;
+    }
+    .nurcelceum-item {
+        width: 100% !important;
+      }
+    .header-navbar,
+    .nur-usr-description,
+    .project-features-icon-desktop,
+    .project-title-desktop {
+        display: none !important;
+    }
+    .nur-background-block .project-features-text {
+        color: black !important;
+    }
+    .nur-main-img, .nur-main-img img {
+        width: 192vw;
+        height: 57vh;
+        top: 12.8vh;
+    }
+    .project-info-wrapper {
+        /* top: 15%; */
+        top: 11%;
+        left: 5%;
+    }
+    .case-industry {
+        position: absolute;
+        left: 5%;
+        top: 33%;
+        color: white;
+    }
+    .case-social {
+        position: absolute;
+        left: 5%;
+        top: 47%;
+        color: white;
+    }
+    .project-features {
+        left: 7vw;
+        top: 83vh;
+    }
+    .project-title {
+        color: black;
+        font-size: 30px;
+    }
+
+    .nur-background-block {
+        margin-bottom: 90vh;
+    }
+    .project-description {
+        margin: 20px auto 8vh;
+        width: 90%;
+    }
+    main {
+        overflow: hidden;
+    }
+    .used-technology-block {
+        margin: 4vh auto 0;
+    }
+    .teck-column {
+        margin: 0 8px;
+    }
+    .feature-item-wrapper {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .nur-reg-img {
+        width: 80vw;
+    }
+    .nur-reg-img img {
+        width: 80vw;
+        height: 73vh;
+    }
+    .nur-follow-img img, .nur-posts-img img {
+        width: 80vw;
+        height: 55vh;
+    }
+    .nur-follow-img, .nur-posts-img {
+        width: 91vw;
+    }
+    .feature-item {
+        margin: 0 0 4vh;
+    }
+    .nur-usr-profile {
+        border: 14px solid #EBEBEB;
+        width: 145vw;
+        height: 47vh;
+        overflow: hidden;
+        position: relative;
+        left: 7vw;
+    }
+    .tool-wrapper p {
+        margin: 0 10vw 5vh;
+        width: inherit;
+    }
+    .nur-home-page {
+        border-radius: 26px;
+        border: 11px solid #EBEBEB;
+        width: 94vw;
+        height: 88vh;
+        overflow: hidden;
+    }
+    .bottom-bar {
+        padding-left: 8vw;
+        padding-top: 8vw;
+    }
+    .bottom-bar span {
+        font-size: 21px;
+    }
+    .bottom-bar p {
+        font-size: 14px;
+        top: 2vw;
+        margin-bottom: 4vh;
+    }
+    .some-button {
+        margin-bottom: 4vh;
+    }
+    .tool-wrapper span {
+        font-family: 'Sailec-Bold';
+        font-size: 23px;
+        color: #000;
+        margin-left: 8vw;
+        margin-bottom: 4vh;
+        display: block;
+    }
+    .project-features-sub-text {
+        top: 2.7vh;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 420px) {
+    .teck-column {
+        margin: 0 16px;
+        z-index: 9;
+        position: relative;
+    }
+    .nur-background-block {
+        margin-bottom: 83vh;
+    }
+}
+@media screen and (max-width: 320px) {
+    .teck-column {
+        margin: 0 11px;
+        z-index: 9;
+        position: relative;
+    }
+    .app-store {
+        top: 32px;
+    }
+    .google-play, .app-store {
+        width: 82px;
+        height: 28px;
+    }
+    .nur-background-block {
+        margin-bottom: 100vh;
+    }
+}

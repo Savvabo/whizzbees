@@ -1,0 +1,417 @@
+.project-features {
+    position: absolute;
+    width: max-content;
+    right: 3vw;
+    top: 11vh;
+}
+.market-wrapper {
+    position: absolute;
+    bottom: 23%;
+    left: 12%;
+}
+.google-play,
+.app-store {
+    width: 95px;
+    height: 32px;
+    position: absolute;
+    z-index: 9;
+}
+.google-play img,
+.app-store img {
+    width: 100%;
+    height: 100%;
+}
+
+.google-play {
+    left: 104px;
+}
+.handy-bg-one,
+.handy-bg-one img{
+    /*width: 676px;*/
+    /*height: 852px;*/
+    /*position: relative;*/
+    width: 47vw;
+    height: 107vh;
+}
+.handy-item {
+    position: relative;
+}
+.handy-main-img,
+.handy-main-img img {
+    /*width: 792px;*/
+    /*height: 446px;*/
+    width: 55vw;
+    height: 58vh;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.case-upper-title {
+    color: #A28200;
+}
+.project-title {
+    font-family: 'Sailec-Black';
+    font-size: 35px;
+    color: #000;
+    margin: 5% auto 0 auto;
+    width: max-content;
+}
+.project-description {
+    font-family: 'Sailec-Light';
+    font-size: 17px;
+    color: #000;
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+}
+.used-technology-block {
+    /*width: 50%;*/
+    margin: 3% auto auto 9vw;
+    /*text-align: center;*/
+}
+.handy-bg-two,
+.handy-bg-two img {
+    /*width: 267px;*/
+    /*height: 798px;*/
+    width: 19vw;
+    height: 104vh;
+    position: absolute;
+    right: 0;
+    bottom: 96vh;
+}
+.handy-text {
+    font-family: 'Sailec-Bold';
+    font-size: 17px;
+    color: #000;
+    display: block;
+    text-transform: uppercase;
+    margin: 0 auto 16px;
+    width: max-content;
+}
+.handy-sub-text {
+    font-family: 'Sailec-Light';
+    font-size: 17px;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+text-align: center;
+}
+.client-img-one,
+.client-img-one img{
+    /*width: 315px;*/
+    /*height: 631px;*/
+    width: 29.5vw;
+    height: 90vh;
+    margin: 0 auto;
+}
+.client-img-two,
+.client-img-two img {
+    /*width: 1051px;*/
+    /*height: 1119px;*/
+    width: 73vw;
+    height: 140vh;
+    margin: 0 auto;
+    z-index: 9;
+
+}
+.handy-bg-three,
+.handy-bg-three img {
+    /*width: 548px;*/
+    /*height: 1533px;*/
+    width: 35vw;
+    height: 184vh;
+    position: absolute;
+    left: 0;
+    top: 95vh;
+}
+.bid-img,
+.bid-img img {
+    /* width: 730px; */
+    /* height: 685px; */
+    width: 51vw;
+    height: 89vh;
+    margin: 0 auto;
+}
+.complete-job-img,
+.complete-job-img img {
+    /* width: 730px; */
+    /* height: 685px; */
+    width: 51vw;
+    height: 89vh;
+    margin: 0 auto;
+}
+.client-text {
+    position: relative;
+    top: 4vh;
+}
+.job-search,
+.job-search img {
+    /* width: 628px; */
+    /* height: 655px; */
+    width: 44vw;
+    height: 88vh;
+    margin: 0 auto;
+    z-index: 9;
+    position: relative;
+}
+.handy-bg-four,
+.handy-bg-four img {
+    /*width: 493px;*/
+    /*height: 1114px;*/
+    width: 35vw;
+    height: 143vh;
+    position: absolute;
+    right: 0;
+    top: 22vh;
+    z-index: 1;
+}
+.handy-bids,
+.handy-bids img {
+    /* width: 628px; */
+    /* height: 655px; */
+    width: 44vw;
+    height: 88vh;
+    margin: 0 19% 0 auto
+}
+.handy-bg-five,
+.handy-bg-five img {
+    /* width: 240px; */
+    /* height: 730px; */
+    width: 15vw;
+    height: 90vh;
+    position: absolute;
+    left: 0;
+    top: 24vh;
+}
+.handy-earn,
+.handy-earn img {
+    /* width: 707px; */
+    /* height: 655px; */
+    width: 53vw;
+    height: 98vh;
+    margin: 0 19% 0 auto;
+}
+.handy-calendar,
+.handy-calendar img {
+    /* width: 881px; */
+    /* height: 655px; */
+    width: 70vw;
+    height: 98vh;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .handy-mob-calendar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .handy-calendar {
+        display: none;
+    }
+    main {
+        width: 100%;
+        overflow: hidden;
+    }
+    .handy-bg-one, .handy-bg-one img {
+        /*width: 403px;*/
+        /*height: 508px;*/
+        width: 108vw;
+        height: 76vh;
+        /* position: relative; */
+    }
+    .back-link {
+        left: 5vw;
+    }
+    .header-navbar {
+        display: none;
+    }
+    .handy-main-img, .handy-main-img img {
+        /* width: 792px; */
+        /* height: 446px; */
+        width: 148vw;
+        height: 46vh;
+        top: -13%;
+        left: 68%;
+        position: relative;
+    }
+    .project-info-wrapper {
+        top: 13%;
+        left: 5%;
+    }
+    .case-industry {
+        left: 5%;
+        top: 31%;
+    }
+    .case-social {
+        position: absolute;
+        left: 5%;
+        top: 42%;
+        color: white;
+    }
+    .google-play {
+         left: 0;
+        bottom: .7vh;
+    }
+    .market-wrapper {
+        bottom: 40%;
+        left: 5%;
+    }
+    .project-features {
+        left: 7vw;
+        top: 80vh;
+    }
+    .project-title-handy {
+        position: relative;
+        margin: 0;
+        left: 7vw;
+    }
+    .project-title {
+        color: black;
+        z-index: 9;
+    }
+    .handy-background-block {
+        margin-bottom: 82vh;
+    }
+    .project-features-sub-text {
+        top: 2.7vh;
+    }
+    .project-description {
+        margin: 2vh 7vw 9vh;
+        text-align: left;
+        position: relative;
+        width: auto;
+    }
+    .teck-column {
+        margin: 0 21px;
+        z-index: 9;
+        position: relative;
+    }
+    .handy-bg-two, .handy-bg-two img {
+        width: 74vw;
+        height: 107vh;
+        bottom: 65vh;
+    }
+    .handy-sub-text {
+        margin: 0 8vw;
+        width: unset;
+        text-align: center;
+        z-index: 9;
+        position: relative;
+    }
+    .client-img-one, .client-img-one img {
+        width: 87vw;
+        height: 84.5vh;
+        position: relative;
+    }
+    .client-img-two {
+        width: 105vw;
+        height: 100vh;
+        margin: 0 auto;
+        z-index: 9;
+        overflow: hidden;
+    }
+    .client-img-two img {
+        width: 166vw;
+        height: 100vh;
+
+    }
+    .feature-numeral .project-title {
+        width: 90vw;
+    }
+    .handy-bg-three, .handy-bg-three img {
+        width: 52vw;
+        height: 104vh;
+        position: absolute;
+        left: 0;
+        top: 135vh;
+    }
+    .bid-img, .bid-img img,
+    .complete-job-img, .complete-job-img img {
+        width: 97vw;
+        height: 61vh;
+    }
+    .job-search, .job-search img {
+        width: 97vw;
+        height: 65vh;
+    }
+    .handy-bg-four, .handy-bg-four img {
+        width: 35vw;
+        height: 45vh;
+        top: 16vh;
+    }
+    .handy-bids, .handy-bids img {
+        width: 93vw;
+        height: 65vh;
+        margin: 0 auto;
+        position: relative;
+        z-index: 9;
+    }
+    .handy-earn, .handy-earn img {
+        width: 97vw;
+        height: 61vh;
+        margin: 0 auto;
+    }
+    .handy-bg-five, .handy-bg-five img {
+        width: 29vw;
+        height: 52vh;
+        top: 32vh;
+    }
+    .handy-mob-calendar, .handy-mob-calendar img {
+        /* width: 881px; */
+        /* height: 655px; */
+        width: 91vw;
+        height: 63vh;
+        margin: 0 auto;
+    }
+    .bottom-bar {
+        padding-left: 8vw;
+        padding-top: 8vw;
+    }
+    .bottom-bar span {
+        font-size: 21px;
+    }
+    .bottom-bar p {
+        font-size: 14px;
+        top: 2vw;
+        margin-bottom: 4vh;
+    }
+    .some-button {
+        margin-bottom: 4vh;
+    }
+    .used-technology-block {
+        /* width: 50%; */
+        margin: 3% 4vw auto 4vw;
+        /* text-align: center; */
+    }
+    /*.project-title {*/
+
+    /*    margin: 15% auto 0 auto;*/
+
+    /*}*/
+}
+@media screen and (min-width: 400px) and (max-width: 420px) {
+    .teck-column {
+        margin: 0 27px;
+        z-index: 9;
+        position: relative;
+    }
+}
+@media screen and (max-width: 320px) {
+    .handy-background-block {
+        margin-bottom: 97vh;
+    }
+    .project-title {
+        font-size: 32px;
+    }
+    .teck-column {
+        margin: 0 11px;
+        z-index: 9;
+        position: relative;
+    }
+}

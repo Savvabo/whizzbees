@@ -1,0 +1,620 @@
+.lider-background-block {
+    background-color: #00BDF2;
+    width: 50%;
+    height: 73vh;
+}
+.lider-main-img,
+.lider-main-img img {
+    width: 69vw;
+    height: 101vh;
+    display: block;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.case-upper-title {
+    color: #82E4FF;
+}
+.project-title {
+    font-family: 'Sailec-Black';
+    font-size: 35px;
+    color: #000;
+    margin: 14% auto 0 9vw;
+    width: max-content;
+}
+.project-description {
+    font-family: 'Sailec-Light';
+    font-size: 17px;
+    color: #000;
+    margin: 20px auto -4% 9vw;
+    width: 50%;
+    text-align: left;
+}
+.used-technology-block {
+    /*width: 50%;*/
+    margin: 3% auto auto 9vw;
+    /*text-align: center;*/
+}
+.teck-column:first-of-type {
+    margin-left: 0;
+}
+.project-features {
+    position: absolute;
+    width: max-content;
+    right: 3vw;
+    top: 11vh;
+}
+.market-wrapper {
+    position: absolute;
+    bottom: 23%;
+    left: 12%;
+}
+.google-play,
+.app-store {
+    width: 95px;
+    height: 32px;
+    position: absolute;
+    z-index: 9;
+}
+.google-play img,
+.app-store img {
+    width: 100%;
+    height: 100%;
+}
+
+.google-play {
+    left: 104px;
+}
+.lider-item {
+    margin: 8% auto 0;
+    position: relative;
+}
+.lider-text {
+    font-family: 'Sailec-Bold';
+    font-size: 17px;
+    color: #000;
+    display: block;
+    text-transform: uppercase;
+    /*margin: 0 auto 16px;*/
+    /*width: max-content;*/
+    /*text-align: center;*/
+    /*position: relative;*/
+    /*z-index: 900;*/
+}
+.lider-sub-text {
+    font-family: 'Sailec-Light';
+    font-size: 17px;
+    color: #000;
+    display: block;
+    /*margin: 0 auto;*/
+    /*width: max-content;*/
+    /*text-align: center;*/
+    /*line-height: 30px;*/
+    /*position: relative;*/
+    /*z-index: 900;*/
+}
+
+.lider-race-img {
+    width: 56.5vw;
+    height: 63vh;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+}
+.lider-race-img img {
+    height: 100%;
+}
+.race-main-text {
+    position: absolute;
+    left: 10%;
+    width: 22vw;
+    top: 46vh;
+}
+
+.race-sub-text {
+    position: absolute;
+    left: 10%;
+    width: 22vw;
+    top: 51vh;
+}
+.lider-item-race {
+    height: 183vh;
+}
+.lider-sub-text-inf {
+    position: absolute;
+    left: 10%;
+    width: 22vw;
+    top: 115vh;
+}
+
+.lider-race-program-img {
+    /*width: 1157px;*/
+    /*height: 701px;*/
+    width: 80.35vw;
+    height: 91.3vh;
+    margin: 0 auto;
+    position: relative;
+    top: 19vw;
+}
+.lider-race-program-img img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 19vw;
+}
+.lider-race-program-wrapper {
+    position: relative;
+}
+.upper-text-first {
+    position: absolute;
+    left: 14vw;
+    top: 117%;
+}
+.upper-text-second {
+    position: absolute;
+    left: 36vw;
+    top: 117%;
+}
+.upper-text-third {
+    position: absolute;
+    left: 53vw;
+    top: 81%;
+}
+.upper-text-forth {
+    position: absolute;
+    left: 74.5vw;
+    top: 118%;
+}
+.lider-stat-img {
+    /*width: 80.35vw;*/
+    /*height: 91.3vh;*/
+    /*width: 1713px;*/
+    /*height: 715px;*/
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+}
+
+.lider-stat-img img {
+    /*width: 1713px;*/
+    /*height: 715px;*/
+    width: 120vw;
+    height: 93vh;
+    position: relative;
+    right: -27.5vw;
+}
+.lider-sub-text-stat {
+    width: 30vw;
+    position: absolute;
+    top: 116vh;
+    left: 10%;
+}
+.lider-item-stat {
+    height: 115vh;
+}
+.lider-item-editor p,
+.lider-item-member p {
+    font-family: 'Sailec';
+    font-size: 16px;
+    color: #000;
+    display: block;
+    margin: 0 auto 3%;
+    width: max-content;
+    text-align: center;
+}
+.lider-item-editor-sub-title {
+    font-family: 'Sailec-Bold';
+    font-size: 30px;
+    color: #000;
+    margin-left: 25vw;
+}
+.lider-editor-img,
+.lider-editor-img img {
+    /*width: 760px;*/
+    /*height: 418px;*/
+    margin: 0 auto;
+    width: 53vw;
+    height: 55vh;
+}
+.lider-member-profile-img,
+.lider-member-profile-img img {
+    /*width: 1207px;*/
+    /*height: 583px;*/
+    width: 84vw;
+    height: 76vh;
+    margin: 0 auto 7%;
+}
+.member-upper-text {
+    margin: 0 auto 1%;
+    width: max-content;
+}
+.lider-member-tour-img,
+.lider-member-tour-img img {
+    /*width: 946px;*/
+    /*height: 504px;*/
+    width: 68vw;
+    height: 66vh;
+    margin: 0 auto 3%;
+
+}
+.lider-member-board-img,
+.lider-member-board-img img {
+    /*width: 946px;*/
+    /*height: 504px;*/
+    width: 68vw;
+    height: 73vh;
+    margin: 0 auto 9%;
+
+}
+.lider-member-coupon-img,
+.lider-member-coupon-img img {
+    width: 60vw;
+    height: 93vh;
+    margin: 0 auto;
+    position: relative;
+    bottom: 6%;
+    left: -.4%;
+}
+.member-text-wrapper {
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    padding: 18px 22px;
+    font-size: 17px;
+    font-family: 'Sailec-Light';
+    color: black;
+    width: max-content;
+    margin: 0 auto -6%;
+    position: relative;
+    bottom: 4vw;
+}
+.lider-web-img,
+.lider-web-img img {
+    width: 47vw;
+    height: 82vh;
+    margin: 0 20% -5% auto;
+}
+.lider-xml-img,
+.lider-xml-img img {
+    /*width: 912px;*/
+    /*height: 491px;*/
+    width: 64vw;
+    height: 64vh;
+    margin: -1% auto 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .lider-member-mob,
+    .lider-member-sub-text,
+    .used-technology-wrapper,
+    .market-wrapper-mob {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        width: 100%;
+        overflow: hidden;
+    }
+    .back-link {
+        left: 5vw;
+    }
+    .header-navbar,
+    .lider-member-profile-img,
+    .lider-member-board-img,
+    .lider-member-tour-img,
+    .market-wrapper {
+        display: none !important;
+    }
+    .lider-background-block {
+        background-color: #00BDF2;
+        width: 65%;
+        height: 60vh;
+        margin-bottom: 175vh;
+    }
+    .lider-main-img, .lider-main-img img {
+        width: 150vw;
+        height: 65vh;
+        position: relative;
+        top: 39.5vh;
+        left: 80vw;
+    }
+    .project-info-wrapper,
+    .case-industry,
+    .case-social {
+        left: 7%;
+    }
+
+    .project-info-wrapper {
+        top: 12%;
+    }
+    .case-industry {
+        top: 33%;
+    }
+    .case-social {
+        top: 48%;
+    }
+    .market-wrapper-mob {
+        bottom: 42%;
+    }
+    .project-features {
+        right: 0;
+        left: 7vw;
+        top: 10vh;
+        position: relative;
+    }
+    .race-main-text {
+        position: relative;
+        left: 9vw;
+        width: 64vw;
+        top: 0;
+    }
+    .race-sub-text {
+        position: relative;
+        left: 9vw;
+        width: 85vw;
+        top: 2vh;
+    }
+    .project-title-ip, .project-description {
+        top: 24vw;
+        color: black !important;
+        margin: 1vh 9vw;
+        width: 82%;
+    }
+    .tech-title-ip {
+        top: 34vw;
+    }
+
+    .teck-column {
+        margin: 0px 21px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+    }
+    .teck-column:last-child {
+        margin-left: 0;
+    }
+
+    .lider-race-img {
+        width: 220vw;
+        height: 49vh;
+        /* overflow: hidden; */
+        position: relative;
+        left: 9vw;
+        margin: 10vh 0 0;
+    }
+    .lider-race-img img {
+        height: 100%;
+        width: 100%;
+    }
+    .lider-item-race {
+        height: 210vh;
+    }
+    .lider-sub-text-inf {
+        position: absolute;
+        left: 7vw;
+        right: 7vw;
+        width: 85vw;
+        top: 196vh;
+        text-align: center;
+    }
+    .lider-race-program-img {
+        /* width: 1157px; */
+        /* height: 701px; */
+        width: 130vw;
+        height: 50vh;
+        margin: 0 auto;
+        position: relative;
+        top: 19vw;
+        left: -29vw;
+    }
+    .lider-race-program-img img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 0;
+    }
+    .upper-text-first {
+        display: none;
+    }
+    .upper-text-second {
+        position: absolute;
+        left: 10vw;
+        top: 30vh;
+        font-size: 12px;
+    }
+    .upper-text-forth {
+        position: absolute;
+        left: 71vw;
+        top: 30vh;
+        font-size: 12px;
+    }
+    .upper-text-third {
+        position: absolute;
+        left: 35.5vw;
+        top: 11vh;
+        font-size: 12px;
+    }
+    .lider-stat-img img {
+        width: 200vw;
+        height: 47vh;
+        position: relative;
+        right: -105vw;
+    }
+    .lider-sub-text-stat {
+        width: 82vw;
+        position: absolute;
+        top: 88vh;
+        left: 9vw;
+        text-align: center;
+    }
+    .lider-item-stat {
+        height: 105vh;
+    }
+    .lider-item-editor p, .lider-item-member p {
+        width: 90vw;
+    }
+    .lider-editor-img, .lider-editor-img img {
+        width: 95vw;
+        height: 36vh;
+    }
+    .lider-item-editor-sub-title {
+        font-size: 20px;
+        width: max-content;
+        margin: 0 auto;
+        display: block;
+    }
+    .lider-member-mob, .lider-member-mob img {
+        width: 95vw;
+        height: 27vh;
+        display: block;
+        margin: 0 auto;
+    }
+    .lider-member-mob-tour, .lider-member-mob-tour img {
+        height: 32vh;
+    }
+    .member-upper-text {
+        margin: 7vh auto 2vh;
+        width: max-content;
+        font-size: 13px;
+    }
+    .member-text-wrapper {
+        margin: 0 auto -5vh;
+        background-color: inherit;
+        bottom: 9vw;
+    }
+    .lider-member-coupon-img, .lider-member-coupon-img img {
+        width: 98vw;
+        height: 50vh;
+        bottom: 2vh;
+        left: 0;
+    }
+    .lider-web-img, .lider-web-img img {
+        width: 105vw;
+        height: 60vh;
+        position: relative;
+        left: -5vw;
+        /* margin: 0 53vw 3vw auto; */
+    }
+    .lider-xml-img, .lider-xml-img img {
+        /* width: 912px; */
+        /* height: 491px; */
+        width: 180vw;
+        height: 55vh;
+        margin: 2vh auto 0;
+    }
+
+
+
+
+    .member-upper-text {
+        margin: 7vh auto 2vh;
+        width: max-content;
+        font-size: 13px;
+    }
+    .lider-member-sub-text {
+        margin: 2vh auto 7vh !important;
+    }
+
+
+    .bottom-bar {
+        padding-left: 8vw;
+        padding-top: 8vw;
+    }
+    .bottom-bar span {
+        font-size: 21px;
+    }
+    .bottom-bar p {
+        font-size: 14px;
+        top: 2vw;
+        margin-bottom: 4vh;
+    }
+    .some-button {
+        margin-bottom: 4vh;
+    }
+    .used-technology-block {
+        /* width: 50%; */
+        margin: 5vh 4vw auto 4vw;
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    .project-features-sub-text {
+        top: 2.7vh;
+    }
+
+}
+@media screen and (min-width: 400px) and (max-width: 420px) {
+    .teck-column {
+        margin: 0 27px;
+        z-index: 9;
+        position: relative;
+    }
+    .lider-background-block {
+        margin-bottom: 165vh;
+    }
+    .lider-item-race {
+        height: 195vh;
+    }
+    .upper-text-third {
+        left: 36.5vw;
+    }
+    .upper-text-second {
+        left: 10.5vw;
+    }
+    .upper-text-forth {
+        left: 72.5vw;
+    }
+    .lider-sub-text-inf {
+        top: 185vh;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lider-background-block {
+        margin-bottom: 205vh;
+    }
+    .project-title {
+        font-size: 30px;
+    }
+    .teck-column {
+        margin: 0 11px;
+        z-index: 9;
+        position: relative;
+    }
+    .app-store {
+        top: 32px;
+    }
+    .google-play, .app-store {
+        width: 82px;
+        height: 28px;
+    }
+    .lider-item-race {
+        height: 235vh;
+    }
+    .upper-text-third {
+        left: 36vw;
+        font-size: 10px;
+    }
+    .upper-text-second {
+        left: 10vw;
+        font-size: 10px;
+    }
+    .upper-text-forth {
+        left: 72vw;
+        font-size: 10px;
+    }
+    .lider-sub-text-inf {
+        top: 215vh;
+    }
+    .lider-item-stat {
+        height: 120vh;
+    }
+    .lider-sub-text-stat {
+        top: 92vh;
+    }
+}

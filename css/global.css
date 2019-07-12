@@ -1,0 +1,1221 @@
+/*              -------------------------------------------------                MAIN-TAGS              ------------------------------------------------------------------------------*/
+.modal {
+    display: none;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /*max-height: 100vh;*/
+    /*overflow: hidden;*/
+}
+
+.sidebar-sticky {
+    display: inline-block;
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 20vw;
+    overflow-x: visible;
+    overflow-y: visible;
+    -webkit-box-shadow: 9px 0px 40px 0px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 9px 0px 40px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 9px 0px 40px 0px rgba(0, 0, 0, 0.06);
+    font-family: 'Sailec';
+    z-index: 900;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+
+.main-content {
+    width: 80%;
+    height: 100vh;
+    color: black;
+    display: inline-block;
+    float: right;
+    /*background-color: palegoldenrod;*/
+    position: relative;
+}
+
+
+/*              -------------------------------------------------                COLORS              ------------------------------------------------------------------------------*/
+.yellow {
+    background-color: #FFCC00 !important;
+}
+
+.nurselcim {
+    background-color: #5031A9 !important;
+}
+
+.nurselcim-text {
+    color: #5031A9;
+}
+
+.lider {
+    background-color: #00BDF2 !important;
+}
+
+.lider-text {
+    color: #00BDF2;
+}
+
+.moygab {
+    background-color: #F20042;
+}
+
+.moygab-text {
+    color: #F20042;
+}
+
+.influenzy {
+    background-color: #0D71E3;
+}
+
+.influenzy-text {
+    color: #0D71E3;
+}
+
+.ip-tv {
+    background-color: #00A4DE;
+}
+
+.ip-tv-text {
+    color: #00A4DE;
+}
+
+.handyman {
+    background-color: #FF8000;
+}
+
+.handyman-text {
+    color: #FF8000;
+}
+
+.services {
+    background-color: #16181C;
+}
+
+.gold {
+    color: #FFCC00 !important;
+    opacity: 1 !important;
+}
+
+.alya-black {
+    background-color: #1C1F24;
+}
+
+.contacts {
+    background-color: #25094E;
+}
+
+.expertise {
+    background-color: #3B2872;
+}
+
+.white-text {
+    color: white !important;
+}
+
+.white-text a {
+    color: white;
+    text-decoration: none;
+}
+
+.white-text a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.black-text {
+    color: black !important;
+}
+
+.black-text a {
+    color: black;
+    text-decoration: none;
+}
+
+.black-text a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/*              -------------------------------------------------                SIDEBAR              ------------------------------------------------------------------------------*/
+
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    right: 0;
+    transform: translate(0%, -50%);
+    text-align: right;
+}
+
+.sidebar-menu .active span {
+    /*font-size: 1vw;*/
+    font-size: 17px;
+    /*color: white;*/
+    text-decoration: none;
+    /*border-right: 3px solid white;*/
+    font-family: 'Sailec';
+    border-right: 3px solid white;
+}
+
+.home-page .sidebar-menu .active span {
+    /*font-size: 1vw;*/
+    font-size: 17px;
+    /*color: white;*/
+    text-decoration: none;
+    /*border-right: 3px solid white;*/
+    font-family: 'Sailec';
+    border-right: 3px solid black !important;
+}
+
+.sidebar-menu a {
+    display: inline-block;
+    font-size: 17px;
+    /*font-size: 1vw;*/
+    /*color: white;*/
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Sailec-Light';
+    /*color: #FFFFFF;*/
+}
+
+.sidebar-menu span {
+    padding: 0 14px;
+    margin: 15px 0;
+    display: inline-block;
+}
+
+.sidebar-menu a:hover span {
+    font-size: 17px;
+    /*font-size: 1.25vw;*/
+    /*color: white;*/
+    text-decoration: none;
+    /*border-right: 3px solid white;*/
+    font-family: 'Sailec';
+    /*color: #FFFFFF;*/
+}
+
+.logo img {
+    display: block;
+    /*width: 70px;*/
+    width: 5.1vw;
+    height: auto;
+    position: absolute;
+    right: 27px;
+    top: 40px;
+}
+
+.circle,
+.dot-circle {
+    position: absolute;
+    z-index: 9000000;
+    padding: 0 11px;
+    margin: 19px 0;
+    font-size: 17px;
+}
+
+.dot-circle {
+    display: none;
+}
+
+.sidebar-menu .active .dot-circle,
+.sidebar-menu a:hover .dot-circle {
+    display: inline-block !important; /*border-right: 3px solid black;*/
+}
+
+.sidebar-menu a:hover .circle {
+    display: none; /*border-right: 3px solid black;*/
+}
+
+
+/*              -------------------------------------------------                TOP              ------------------------------------------------------------------------------*/
+
+.top-nav {
+    position: absolute;
+    top: 43px;
+    right: 139px;
+    display: flex;
+    color: white;
+}
+
+.top-nav i {
+    cursor: pointer;
+}
+
+.social-links {
+    margin-right: 139px;
+    display: flex;
+    align-items: center;
+}
+
+.social-links span, .social-links i {
+    display: inline-flex;
+    margin: 0 7px;
+}
+
+.social-links span {
+    font-size: 12px;
+    opacity: .6;
+    font-family: 'Sailec-Bold';
+}
+
+.social-links i {
+    font-size: 19px;
+}
+
+.languages-wrapper span {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Sailec-Bold';
+    opacity: .6;
+}
+
+.languages-wrapper .active {
+    opacity: 1 !important;
+    font-family: 'Sailec';
+}
+
+.languages-wrapper span:hover {
+    opacity: 1 !important;
+    font-family: 'Sailec';
+    cursor: pointer;
+}
+
+/*              -------------------------------------------------                CASES              ------------------------------------------------------------------------------*/
+
+
+/*              -------------------------------------------------                WORK              ------------------------------------------------------------------------------*/
+
+
+.project-info-wrapper {
+    position: absolute;
+    /*left: 96px;*/
+    left: 12%;
+    /*top: 61px;*/
+    top: 10%;
+    font-size: 13px;
+    color: white;
+    font-family: 'Sailec-Thin';
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+    z-index: 9;
+}
+
+.project-name {
+    font-size: 30px;
+    line-height: 31px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-family: 'Sailec-Black';
+    display: inline-block;
+}
+
+.project-specialization {
+    font-size: 20px;
+    line-height: 21px;
+    font-family: 'Sailec';
+}
+
+.project-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /*right: 152px;*/
+
+    /*right: 11%;*/
+    right: 8%;
+    /*top: 208px;*/
+    top: 35%;
+}
+
+.project-nav span,
+.project-nav a {
+    display: inline-block;
+    /*margin-bottom: 15px;*/
+    font-family: 'Sailec-Thin';
+    color: white;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.project-nav a {
+    /*padding: 10px 5px 10px 34px;*/
+    width: 160px;
+    height: 40px;
+}
+
+.project-nav a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.project-nav .active {
+    font-family: 'Sailec-Medium';
+    position: relative;
+    left: 15px;
+    /*top: 5px;*/
+}
+.project-nav a:hover span,
+.project-nav .active span {
+    font-family: 'Sailec-Bold';
+}
+.project-nav .active .dot {
+    width: 34px;
+    height: 33px;
+    top: -8px;
+    left: -27px;
+    font-size: 13px;
+    /*color: #5031A9;*/
+    position: absolute;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+
+.project-nav a:hover {
+    font-family: 'Sailec-Medium';
+    position: relative;
+    left: 15px;
+    /*top: 5px;*/
+    color: #FFFFFF;
+}
+
+.project-nav a:hover .dot {
+    width: 34px;
+    height: 33px;
+    top: -8px;
+    left: -27px;
+    /*left: -10px;*/
+    font-size: 13px;
+    /*color: #5031A9;*/
+    position: absolute;
+    transform: scale(1.06);
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: .6;
+    position: relative;
+    /*top: 14px;*/
+    /*left: -17px;*/
+    text-align: center;
+    transition: transform 0.2s;
+    transform: scale(1);
+}
+
+.dot-number {
+    display: none;
+}
+
+.project-nav .active .dot-number,
+.project-nav a:hover .dot-number {
+    /*color: #5031A9;*/
+    line-height: 34px;
+    font-family: 'Sailec-Medium';
+    display: inline-block;
+    font-style: normal;
+}
+
+.nurselcim .project-nav a:hover .dot-number,
+.nurselcim .project-nav .active .dot-number {
+    color: #5031A9;
+}
+
+.lider .project-nav a:hover .dot-number,
+.lider .project-nav .active .dot-number {
+    color: #00BDF2;
+}
+
+.moygab .project-nav a:hover .dot-number,
+.moygab .project-nav .active .dot-number {
+    color: #F20042;
+}
+
+.influenzy .project-nav a:hover .dot-number,
+.influenzy .project-nav .active .dot-number {
+    color: #0D71E3;
+}
+
+.ip-tv .project-nav a:hover .dot-number,
+.ip-tv .project-nav .active .dot-number {
+    color: #00A4DE;
+}
+
+.handyman .project-nav a:hover .dot-number,
+.handyman .project-nav .active .dot-number {
+    color: #FF8000;
+}
+
+.main-work-button {
+    font-size: 15px;
+    /*font-size: 1.1vw;*/
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 11px 25px;
+    /*padding: .7vw 1.8vw;*/
+    -webkit-box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.38);
+    position: absolute;
+    bottom: 20%;
+    left: 7%;
+    font-family: 'Sailec';
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+
+.main-work-button i {
+    padding-left: 7px;
+}
+
+.nurselcium-img img,
+.nurselcium-img {
+    /*width: 900px;*/
+    /*height: 506px;*/
+    width: 66vw;
+    height: 66vh;
+    position: absolute;
+    top: 17vh;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+
+
+/*.fp-viewing-nurselcimPage .nurselcium-img,*/
+/*.fp-viewing-nurselcimPage .nurselcium-img img {*/
+/*    bottom: 0;*/
+/*}*/
+/*.fp-viewing-homePage .nurselcium-img,*/
+/*.fp-viewing-homePage .nurselcium-img img {*/
+/*    bottom: 110vh;*/
+/*}*/
+
+.lider-img,
+.lider-img img {
+    /*width: 900px;*/
+    /*height: 506px;*/
+    width: 73vw;
+    height: 57vw;
+    position: absolute;
+    top: 3%;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+
+.moygab-img-1 {
+    position: absolute;
+    /*width: 401px;*/
+    /*height: 407px;*/
+    width: 30vw;
+    height: 30vw;
+    top: 64%;
+    left: 8%;
+}
+
+.moygab-img-2 {
+    position: absolute;
+    /*width: 401px;*/
+    /*height: 407px;*/
+    width: 30vw;
+    height: 30vw;
+    top: 31%;
+    left: 7%;
+}
+
+.moygab-img-3 {
+    position: absolute;
+    /*width: 401px;*/
+    /*height: 407px;*/
+    width: 30vw;
+    height: 30vw;
+    top: 31%;
+    left: 31%;
+}
+
+.moygab-img-4 {
+    position: absolute;
+    /*width: 401px;*/
+    /*height: 407px;*/
+    width: 30vw;
+    height: 30vw;
+    top: 55%;
+    left: 39%;
+}
+
+.moygab-img-1 img,
+.moygab-img-2 img,
+.moygab-img-3 img,
+.moygab-img-4 img {
+    position: relative;
+    /*width: 401px;*/
+    /*height: 407px;*/
+    width: 30vw;
+    height: 30vw;
+
+}
+
+.moygab-img-1,
+.moygab-img-2,
+.moygab-img-3,
+.moygab-img-4 {
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+
+.influenzy-img,
+.influenzy-img img {
+    /*width: 892px;*/
+    /*height: 696px;*/
+    width: 64.5vw;
+    height: 51vw;
+    position: absolute;
+    top: 3vh;
+    left: 7%;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+
+.ip-tv-img,
+.ip-tv-img img {
+    /*width: 1042px;*/
+    /*height: 586px;*/
+    width: 76vw;
+    height: 43vw;
+    position: absolute;
+    top: 12vh;
+    left: -8%;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+
+.handyman-img,
+.handyman-img img {
+    /*width: 792px;*/
+    /*height: 446px;*/
+    width: 58vw;
+    height: 33vw;
+    position: absolute;
+    top: 12vh;
+    left: 4%;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+
+.main-work-button:hover,
+.some-button:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*              -------------------------------------------------                EXPERISE              ------------------------------------------------------------------------------*/
+.expertise-main-title {
+    font-family: 'Sailec-Light';
+    color: white;
+    font-size: 31px;
+    display: block;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.expertise-title {
+    font-family: 'Sailec-Light';
+    color: white;
+    font-size: 18px;
+    display: block;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main-scheme {
+    width: 55vw;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.main-scheme img {
+    width: 55vw;
+}
+
+/*              -------------------------------------------------                ANIMATION              ------------------------------------------------------------------------------*/
+
+.main-work-button {
+
+}
+
+/*.fp-viewing-nurselcimPage .main-work-button,*/
+/*.fp-viewing-nurselcimPage .main-work-button img {*/
+/*    left: 7%;*/
+/*}*/
+
+/*.fp-viewing-liderPage .main-work-button,*/
+/*.fp-viewing-liderPage .main-work-button img {*/
+/*    left: 7%;*/
+/*}*/
+
+/*.fp-viewing-homePage .main-work-button,*/
+/*.fp-viewing-servicesPage .main-work-button,*/
+/*.fp-viewing-expertisePage .main-work-button,*/
+/*.fp-viewing-contactsPage .main-work-button {*/
+/*    left: -5%;*/
+/*}*/
+
+.fp-viewing-nurselcimPage .project-info-wrapper {
+    left: 12%;
+}
+
+.fp-viewing-homePage .project-info-wrapper,
+.fp-viewing-servicesPage .project-info-wrapper,
+.fp-viewing-expertisePage .project-info-wrapper,
+.fp-viewing-contactsPage .project-info-wrapper {
+    left: -5%;
+}
+
+.fp-viewing-nurselcimPage .project-nav .active .dot {
+    font-size: 13px;
+    width: 34px;
+    height: 33px;
+    line-height: 34px;
+}
+
+.fp-viewing-homePage .project-nav .active .dot {
+    font-size: 0;
+    width: 0;
+    height: 0;
+}
+
+.nurselcim-span,
+.lider-span,
+.moygab-span,
+.influenzy-span,
+.iptv-span,
+.handyman-span {
+    position: relative;
+    right: 0;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+    margin-left: 20px;
+}
+
+/*.active .nurselcim-span{*/
+/*    color: yellow;*/
+/*}*/
+/*.active .lider-span{*/
+/*    color: yellow;*/
+/*}*/
+
+/*.fp-viewing-nurselcimPage .nurselcim-span,*/
+/*.fp-viewing-nurselcimPage .lider-span,*/
+/*.fp-viewing-nurselcimPage .moygab-span,*/
+/*.fp-viewing-nurselcimPage .influenzy-span,*/
+/*.fp-viewing-nurselcimPage .iptv-span,*/
+/*.fp-viewing-nurselcimPage .handyman-span {*/
+/*    right: 0;*/
+/*}*/
+
+/*.fp-viewing-homePage .nurselcim-span {*/
+/*    right: -15px;*/
+/*}*/
+
+/*.fp-viewing-homePage .lider-span {*/
+/*    right: -30px;*/
+/*}*/
+
+/*.fp-viewing-homePage .moygab-span {*/
+/*    right: -45px;*/
+/*}*/
+
+/*.fp-viewing-homePage .influenzy-span {*/
+/*    right: -60px;*/
+/*}*/
+
+/*.fp-viewing-homePage .iptv-span {*/
+/*    right: -75px;*/
+/*}*/
+
+/*.fp-viewing-homePage .handyman-span {*/
+/*    right: -90px;*/
+/*}*/
+
+/*.nurselcim-dot,*/
+/*.lider-dot,*/
+/*.moygab-dot,*/
+/*.influenzy-dot,*/
+/*.iptv-dot,*/
+/*.handyman-dot {*/
+/*    position: relative;*/
+/*    left: 0;*/
+/*    -webkit-transition: all 1.5s ease-out;*/
+/*    -moz-transition: all 1.5s ease-out;*/
+/*    -ms-transition: all 1.5s ease-out;*/
+/*    -o-transition: all 1.5s ease-out;*/
+/*    transition: all 1.5s ease-out;*/
+/*}*/
+
+/*.fp-viewing-nurselcimPage .nurselcim-dot,*/
+/*.fp-viewing-nurselcimPage .lider-dot,*/
+/*.fp-viewing-nurselcimPage .moygab-dot,*/
+/*.fp-viewing-nurselcimPage .influenzy-dot,*/
+/*.fp-viewing-nurselcimPage .iptv-dot,*/
+/*.fp-viewing-nurselcimPage .handyman-dot {*/
+/*    left: -17px;*/
+/*}*/
+
+/*.fp-viewing-homePage .nurselcim-dot {*/
+/*    left: -15px;*/
+/*}*/
+
+/*.fp-viewing-homePage .lider-dot {*/
+/*    left: -30px;*/
+/*}*/
+
+/*.fp-viewing-homePage .moygab-dot {*/
+/*    left: -45px;*/
+/*}*/
+
+/*.fp-viewing-homePage .influenzy-dot {*/
+/*    left: -60px;*/
+/*}*/
+
+/*.fp-viewing-homePage .iptv-dot {*/
+/*    left: -75px;*/
+/*}*/
+
+/*.fp-viewing-homePage .handyman-dot {*/
+/*    left: -90px;*/
+/*}*/
+
+.fp-viewing-nurselcimPage .form-eight,
+.fp-viewing-nurselcimPage .form-eight img,
+.fp-viewing-expertisePage .nurselcium-img img,
+.fp-viewing-contactsPage .nurselcium-img,
+.fp-viewing-servicesPage .nurselcium-img img,
+.fp-viewing-expertisePage .nurselcium-img,
+.fp-viewing-contactsPage .nurselcium-img img,
+.fp-viewing-servicesPage .nurselcium-img,
+.fp-viewing-homePage .nurselcium-img img,
+.fp-viewing-moygabPage .nurselcium-img,
+.fp-viewing-moygabPage .nurselcium-img img,
+.fp-viewing-influenzyPage .nurselcium-img,
+.fp-viewing-influenzyPage .nurselcium-img img,
+.fp-viewing-liderPage .nurselcium-img,
+.fp-viewing-liderPage .nurselcium-img img,
+.fp-viewing-ipTvPage .nurselcium-img,
+.fp-viewing-ipTvPage .nurselcium-img img,
+.fp-viewing-handymanPage .nurselcium-img,
+.fp-viewing-handymanPage .nurselcium-img img,
+.fp-viewing-expertisePage .nurselcium-img-mob img,
+.fp-viewing-contactsPage .nurselcium-img-mob,
+.fp-viewing-servicesPage .nurselcium-img-mob img,
+.fp-viewing-expertisePage .nurselcium-img-mob,
+.fp-viewing-contactsPage .nurselcium-img-mob img,
+.fp-viewing-servicesPage .nurselcium-img-mob,
+.fp-viewing-homePage .nurselcium-img-mob img,
+.fp-viewing-moygabPage .nurselcium-img-mob,
+.fp-viewing-moygabPage .nurselcium-img-mob img,
+.fp-viewing-influenzyPage .nurselcium-img-mob,
+.fp-viewing-influenzyPage .nurselcium-img-mob img,
+.fp-viewing-ipTvPage .nurselcium-img-mob,
+.fp-viewing-ipTvPage .nurselcium-img-mob img,
+.fp-viewing-handymanPage .nurselcium-img-mob,
+.fp-viewing-handymanPage .nurselcium-img-mob img,
+.fp-viewing-liderPage .nurselcium-img-mob,
+.fp-viewing-liderPage .nurselcium-img-mob img,
+.fp-viewing-homePage .lider-img,
+.fp-viewing-homePage .lider-img img,
+.fp-viewing-moygabPage .lider-img,
+.fp-viewing-moygabPage .lider-img img,
+.fp-viewing-influenzyPage .lider-img,
+.fp-viewing-influenzyPage .lider-img img,
+.fp-viewing-ipTvPage .lider-img,
+.fp-viewing-ipTvPage .lider-img img,
+.fp-viewing-handymanPage .lider-img,
+.fp-viewing-handymanPage .lider-img img,
+.fp-viewing-nurselcimPage .lider-img,
+.fp-viewing-nurselcimPage .lider-img img,
+.fp-viewing-homePage .influenzy-img,
+.fp-viewing-homePage .influenzy-img img,
+.fp-viewing-moygabPage .influenzy-img,
+.fp-viewing-moygabPage .influenzy-img img,
+.fp-viewing-ipTvPage .influenzy-img,
+.fp-viewing-ipTvPage .influenzy-img img,
+.fp-viewing-handymanPage .influenzy-img,
+.fp-viewing-handymanPage .influenzy-img img,
+.fp-viewing-nurselcimPage .influenzy-img,
+.fp-viewing-nurselcimPage .influenzy-img img,
+.fp-viewing-homePage .ip-tv-img,
+.fp-viewing-homePage .ip-tv-img img,
+.fp-viewing-moygabPage .ip-tv-img,
+.fp-viewing-moygabPage .ip-tv-img img,
+.fp-viewing-influenzyPage .ip-tv-img,
+.fp-viewing-influenzyPage .ip-tv-img img,
+.fp-viewing-handymanPage .ip-tv-img,
+.fp-viewing-handymanPage .ip-tv-img img,
+.fp-viewing-nurselcimPage .ip-tv-img,
+.fp-viewing-nurselcimPage .ip-tv-img img,
+.fp-viewing-homePage .handyman-img,
+.fp-viewing-homePage .handyman-img img,
+.fp-viewing-moygabPage .handyman-img,
+.fp-viewing-moygabPage .handyman-img img,
+.fp-viewing-influenzyPage .handyman-img,
+.fp-viewing-influenzyPage .handyman-img img,
+.fp-viewing-ipTvPage .handyman-img,
+.fp-viewing-ipTvPage .handyman-img img,
+.fp-viewing-expertisePage .handyman-img,
+.fp-viewing-expertisePage .handyman-img img,
+.fp-viewing-nurselcimPage .handyman-img,
+.fp-viewing-nurselcimPage .handyman-img img {
+    top: 110vh;
+}
+
+/*.fp-viewing-homePage .expertise-wrapper,*/
+/*.fp-viewing-moygabPage .expertise-wrapper,*/
+/*.fp-viewing-influenzyPage .expertise-wrapper,*/
+/*.fp-viewing-ipTvPage .expertise-wrapper,*/
+/*.fp-viewing-nurselcimPage .expertise-wrapper {*/
+/*    top: 110vh;*/
+/*    position: relative;*/
+/*}*/
+
+.fp-viewing-homePage .input-block-name,
+.fp-viewing-nurselcimPage .expertise-wrapper,
+.fp-viewing-liderPage .expertise-wrapper,
+.fp-viewing-moygabPage .input-block-name,
+.fp-viewing-influenzyPage .expertise-wrapper,
+.fp-viewing-ipTvPage .expertise-wrapper,
+.fp-viewing-handymanPage .expertise-wrapper,
+.fp-viewing-servicesPage .expertise-wrapper,
+.fp-viewing-contactsPage .expertise-wrapper {
+    top: 110vh;
+    position: relative;
+}
+
+
+.fp-viewing-homePage .moygab-img-1,
+.fp-viewing-nurselcimPage .moygab-img-1,
+.fp-viewing-liderPage .moygab-img-1,
+.fp-viewing-servicesPage .moygab-img-1,
+.fp-viewing-influenzyPage .moygab-img-1,
+.fp-viewing-ipTvPage .moygab-img-1,
+.fp-viewing-handymanPage .moygab-img-1,
+.fp-viewing-expertisePage .moygab-img-1,
+.fp-viewing-contactsPage .moygab-img-1
+.fp-viewing-homePage .moygab-img-4,
+.fp-viewing-nurselcimPage .moygab-img-4,
+.fp-viewing-liderPage .moygab-img-4,
+.fp-viewing-servicesPage .moygab-img-4,
+.fp-viewing-influenzyPage .moygab-img-4,
+.fp-viewing-ipTvPage .moygab-img-4,
+.fp-viewing-handymanPage .moygab-img-4,
+.fp-viewing-expertisePage .moygab-img-4,
+.fp-viewing-contactsPage .moygab-img-4 {
+    top: 147%;
+}
+
+.fp-viewing-homePage .moygab-img-2,
+.fp-viewing-nurselcimPage .moygab-img-2,
+.fp-viewing-liderPage .moygab-img-2,
+.fp-viewing-servicesPage .moygab-img-2,
+.fp-viewing-influenzyPage .moygab-img-2,
+.fp-viewing-ipTvPage .moygab-img-2,
+.fp-viewing-handymanPage .moygab-img-2,
+.fp-viewing-expertisePage .moygab-img-2,
+.fp-viewing-contactsPage .moygab-img-2
+.fp-viewing-homePage .moygab-img-3,
+.fp-viewing-nurselcimPage .moygab-img-3,
+.fp-viewing-liderPage .moygab-img-3,
+.fp-viewing-influenzyPage .moygab-img-3,
+.fp-viewing-ipTvPage .moygab-img-3,
+.fp-viewing-handymanPage .moygab-img-3,
+.fp-viewing-servicesPage .moygab-img-3,
+.fp-viewing-expertisePage .moygab-img-3,
+.fp-viewing-contactsPage .moygab-img-3 {
+    top: 150%;
+}
+
+.fp-viewing-homePage .map,
+.fp-viewing-nurselcimPage .map,
+.fp-viewing-liderPage .map,
+.fp-viewing-moygabPage .map,
+.fp-viewing-influenzyPage .map,
+.fp-viewing-ipTvPage .map,
+.fp-viewing-handymanPage .map,
+.fp-viewing-expertisePage .map,
+.fp-viewing-servicesPage .map {
+    top: 140vh;
+}
+
+.fp-viewing-homePage .ios-dev,
+.fp-viewing-nurselcimPage .ios-dev,
+.fp-viewing-liderPage .ios-dev,
+.fp-viewing-moygabPage .ios-dev,
+.fp-viewing-influenzyPage .ios-dev,
+.fp-viewing-ipTvPage .ios-dev,
+.fp-viewing-handymanPage .ios-dev,
+.fp-viewing-expertisePage .ios-dev,
+.fp-viewing-contactsPage .ios-dev {
+    top: 140vh;
+}
+
+.fp-viewing-homePage .android-dev,
+.fp-viewing-nurselcimPage .android-dev,
+.fp-viewing-liderPage .android-dev,
+.fp-viewing-moygabPage .android-dev,
+.fp-viewing-influenzyPage .android-dev,
+.fp-viewing-ipTvPage .android-dev,
+.fp-viewing-handymanPage .android-dev,
+.fp-viewing-expertisePage .android-dev,
+.fp-viewing-contactsPage .android-dev {
+    top: 110vh;
+}
+
+.fp-viewing-homePage .design-dev,
+.fp-viewing-nurselcimPage .design-dev,
+.fp-viewing-liderPage .design-dev,
+.fp-viewing-moygabPage .design-dev,
+.fp-viewing-influenzyPage .design-dev,
+.fp-viewing-ipTvPage .design-dev,
+.fp-viewing-handymanPage .design-dev,
+.fp-viewing-expertisePage .design-dev,
+.fp-viewing-contactsPage .design-dev {
+    top: 80vh;
+}
+
+.fp-viewing-homePage .web-dev,
+.fp-viewing-nurselcimPage .web-dev,
+.fp-viewing-liderPage .web-dev,
+.fp-viewing-moygabPage .web-dev,
+.fp-viewing-influenzyPage .web-dev,
+.fp-viewing-ipTvPage .web-dev,
+.fp-viewing-handymanPage .web-dev,
+.fp-viewing-expertisePage .web-dev,
+.fp-viewing-contactsPage .web-dev {
+    top: 50vh;
+}
+
+.fp-viewing-homePage .coontacts-text-wrapper,
+.fp-viewing-nurselcimPage .coontacts-text-wrapper,
+.fp-viewing-liderPage .coontacts-text-wrapper,
+.fp-viewing-moygabPage .coontacts-text-wrapper,
+.fp-viewing-influenzyPage .coontacts-text-wrapper,
+.fp-viewing-ipTvPage .coontacts-text-wrapper,
+.fp-viewing-handymanPage .coontacts-text-wrapper,
+.fp-viewing-expertisePage .coontacts-text-wrapper,
+.fp-viewing-servicesPage .coontacts-text-wrapper {
+    left: 35vw;
+}
+
+.fp-viewing-homePage .input-block-name,
+.fp-viewing-nurselcimPage .input-block-name,
+.fp-viewing-liderPage .input-block-name,
+.fp-viewing-moygabPage .input-block-name,
+.fp-viewing-influenzyPage .input-block-name,
+.fp-viewing-ipTvPage .input-block-name,
+.fp-viewing-handymanPage .input-block-name,
+.fp-viewing-expertisePage .input-block-name,
+.fp-viewing-servicesPage .input-block-name {
+    left: 60vw;
+}
+
+.fp-viewing-homePage .input-block-company,
+.fp-viewing-nurselcimPage .input-block-company,
+.fp-viewing-liderPage .input-block-company,
+.fp-viewing-moygabPage .input-block-company,
+.fp-viewing-influenzyPage .input-block-company,
+.fp-viewing-ipTvPage .input-block-company,
+.fp-viewing-handymanPage .input-block-company,
+.fp-viewing-expertisePage .input-block-company,
+.fp-viewing-servicesPage .input-block-company {
+    left: 85vw;
+}
+
+.fp-viewing-homePage .input-block-phone,
+.fp-viewing-nurselcimPage .input-block-phone,
+.fp-viewing-liderPage .input-block-phone,
+.fp-viewing-moygabPage .input-block-phone,
+.fp-viewing-influenzyPage .input-block-phone,
+.fp-viewing-ipTvPage .input-block-phone,
+.fp-viewing-handymanPage .input-block-phone,
+.fp-viewing-expertisePage .input-block-phone,
+.fp-viewing-servicesPage .input-block-phone {
+    left: 110vw;
+}
+
+.fp-viewing-homePage .input-block-message,
+.fp-viewing-nurselcimPage .input-block-message,
+.fp-viewing-liderPage .input-block-message,
+.fp-viewing-moygabPage .input-block-message,
+.fp-viewing-influenzyPage .input-block-message,
+.fp-viewing-ipTvPage .input-block-message,
+.fp-viewing-handymanPage .input-block-message,
+.fp-viewing-expertisePage .input-block-message,
+.fp-viewing-servicesPage .input-block-message {
+    left: 135vw;
+}
+.fp-viewing-homePage .contact-location-wrapper,
+.fp-viewing-nurselcimPage .contact-location-wrapper,
+.fp-viewing-liderPage .contact-location-wrapper,
+.fp-viewing-moygabPage .contact-location-wrapper,
+.fp-viewing-influenzyPage .contact-location-wrapper,
+.fp-viewing-ipTvPage .contact-location-wrapper,
+.fp-viewing-handymanPage .contact-location-wrapper,
+.fp-viewing-expertisePage .contact-location-wrapper,
+.fp-viewing-servicesPage .contact-location-wrapper {
+    left: 160vw;
+}
+
+.fp-viewing-homePage .coontacts-text,
+.fp-viewing-nurselcimPage .coontacts-text,
+.fp-viewing-liderPage .coontacts-text,
+.fp-viewing-moygabPage .coontacts-text,
+.fp-viewing-influenzyPage .coontacts-text,
+.fp-viewing-ipTvPage .coontacts-text,
+.fp-viewing-handymanPage .coontacts-text,
+.fp-viewing-expertisePage .coontacts-text,
+.fp-viewing-servicesPage .coontacts-text {
+    left: 160vw;
+}
+
+/*.fp-viewing-homePage .nurselcim-img,*/
+/*.fp-viewing-homePage .nurselcim-img img,*/
+/*.fp-viewing-moygabPage .nurselcim-img,*/
+/*.fp-viewing-moygabPage .nurselcim-img img,*/
+/*.fp-viewing-influenzyPage .nurselcim-img,*/
+/*.fp-viewing-influenzyPage .nurselcim-img img,*/
+/*.fp-viewing-ipTvPage .nurselcim-img,*/
+/*.fp-viewing-ipTvPage .nurselcim-img img,*/
+/*.fp-viewing-handymanPage .nurselcim-img,*/
+/*.fp-viewing-handymanPage .nurselcim-img img {*/
+/*    bottom: 110vh;*/
+/*}*/
+.logo img {
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.input-block-phone,
+.input-block-name,
+.input-block-company,
+.coontacts-text-wrapper,
+.input-block-message,
+.contact-location-wrapper,
+.coontacts-text {
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    left: 0;
+}
+
+.logo img:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1366px) {
+    .upper-text-forth,
+    .upper-text-second,
+    .upper-text-first {
+        top: 113% !important;
+    }
+    .upper-text-third {
+        top: 76% !important;
+    }
+    .lider-main-img, .lider-main-img img {
+        height: 98vh !important;
+        top: 52% !important;
+    }
+}
+@media screen and (min-width: 1280px) and (max-width: 1280px) {
+    .upper-text-forth,
+    .upper-text-second,
+    .upper-text-first {
+        top: 113% !important;
+    }
+    .upper-text-third {
+        top: 76% !important;
+    }
+    .lider-race-program-img {
+        top: 23vw !important;
+    }
+    .lider-main-img, .lider-main-img img {
+        height: 90vh !important;
+        top: 52% !important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .feature-numeral .project-title {
+        top: 45% !important;
+    }
+}
+/*.design-process-wrapper,*/
+/*.design-example {*/
+/*    display: none;*/
+/*}*/
+.show {
+    display: block !important;
+}
+.hide {
+    display: none !important;
+}

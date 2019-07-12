@@ -1,0 +1,426 @@
+.iptv-text {
+    font-family: 'Sailec-Bold';
+    font-size: 17px;
+    color: #000;
+    display: block;
+    /*text-transform: uppercase;*/
+    margin: 0 auto 16px;
+    width: max-content;
+}
+.iptv-sub-text {
+    font-family: 'Sailec-Light';
+    font-size: 17px;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    text-align: center;
+}
+.ip-bg-one,
+.ip-bg-one img {
+    width: 100vw;
+    height: 183vh;
+    /* height: 1403px; */
+    top: 2vh;
+    left: 0;
+    position: absolute;
+    display: block;
+    z-index: 2;
+}
+.ip-bg-two,
+.ip-bg-two img {
+    width: 39vw;
+    height: 150vh;
+    top: 6vh;
+    left: 0;
+    /* width: 562px; */
+    /* height: 1157px; */
+    /* top: 5.8vh; */
+    position: absolute;
+    display: block;
+    /* margin: 0 auto; */
+}
+.ip-main-img,
+.ip-main-img img {
+    width: 66vw;
+    height: 79vh;
+    top: 11vh;
+    right: 4vw;
+    /* width: 845px; */
+    /* height: 596px; */
+    /* top: 5.8vh; */
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    z-index: 9;
+}
+.used-technology-block,
+.used-technology-block img {
+    /*width: 85vw;*/
+    /*height: 85vh;*/
+    /*top: 7.8vh;*/
+    left: 0;
+    width: 918px;
+    height: 296px;
+    /*top: 5.8vh;*/
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.ip-home img {
+    width: 67vw;
+    height: 270vh;
+    position: relative;
+    bottom: 3vh;
+    /* left: 0; */
+    /* width: 959px; */
+    /* height: 2357px; */
+    display: block;
+    margin: 0 auto;
+}
+.ip-home {
+    margin: 10vh auto 5vh;
+}
+.ip-page,
+.ip-page img {
+    /*width: 85vw;*/
+    /*height: 85vh;*/
+    /*top: 7.8vh;*/
+    left: 0;
+    width: 959px;
+    height: 527px;
+    /*top: 5.8vh;*/
+    position: relative;
+    display: block;
+    margin: 0 auto 4vh;
+}
+/*.ip-mobile{*/
+/*    !*width: 85vw;*!*/
+/*    !*height: 85vh;*!*/
+/*    !*top: 7.8vh;*!*/
+/*    left: 0;*/
+/*    width: 959px;*/
+/*    height: 1711px;*/
+/*    !*top: 5.8vh;*!*/
+/*    position: relative;*/
+/*    display: block;*/
+/*    margin: 128px auto 0;*/
+
+/* }*/
+.iptv-app,
+.iptv-app img {
+    width: 69vw;
+    height: 92vh;
+    /*top: 7.8vh;*/
+    /*left: 0;*/
+    /*width: 989px;*/
+    /*height: 736px;*/
+    /*top: 5.8vh;*/
+    position: relative;
+    display: block;
+    margin: 0 auto;
+
+ }
+.iptv-mob-app,
+.iptv-mob-app img {
+    /*width: 85vw;*/
+    /*height: 85vh;*/
+    /*top: 7.8vh;*/
+    left: 0;
+    width: 328px;
+    height: 659px;
+    /*top: 5.8vh;*/
+    position: relative;
+    display: block;
+    margin: 2% auto 5vh;
+ }
+.iptv-stream,
+.iptv-stream img {
+    width: 33vw;
+    height: 92vh;
+    bottom: 1.8vh;
+    /* width: 473px; */
+    /* height: 736px; */
+    position: relative;
+    display: block;
+    margin: 0 auto;
+ }
+.project-features {
+    position: absolute;
+    width: max-content;
+    /* right: 3vw; */
+    /* top: 15vh; */
+    right: 7vw;
+    top: 10vh;
+}
+.project-info-wrapper {
+    top: 17%;
+    left: 7%;
+}
+.case-upper-title {
+    color: #7BCBEB;
+}
+.case-industry {
+    left: 7%;
+    z-index: 9;
+}
+.case-social {
+    left: 7%;
+    z-index: 9;
+    top: 57%;
+}
+.project-title {
+    font-family: 'Sailec-Black';
+    font-size: 35px;
+    color: #000;
+    margin: 0 auto;
+    width: max-content;
+}
+.project-description {
+    font-family: 'Sailec-Light';
+    font-size: 17px;
+    color: #000;
+    margin: 20px auto 5%;
+    width: 50%;
+    text-align: center;
+}
+.used-technology-block {
+    width: 64vw;
+    /*height: 39vh;*/
+    top: 7.8vh;
+    left: 0;
+    /* width: 918px; */
+    /* height: 296px; */
+    /* top: 5.8vh; */
+    position: relative;
+    display: block;
+    margin: 29% auto 0;
+    height: fit-content;
+
+}
+.tech-title-ip {
+    position: relative;
+    top: 29vw;
+}
+.project-title-ip,
+.project-description {
+      position: relative;
+      z-index: 9;
+      top: 3vw;
+}
+.market-wrapper {
+    position: absolute;
+    bottom: 34%;
+    left: 7%;
+}
+.market-wrapper-mob {
+    position: absolute;
+    bottom: 34%;
+    left: 7%;
+}
+.google-play,
+.app-store {
+    width: 95px;
+    height: 32px;
+    position: absolute;
+    z-index: 9;
+}
+.google-play img,
+.app-store img {
+    width: 100%;
+    height: 100%;
+}
+.app-store {
+    top: 40px;
+
+}
+.google-play {
+}
+@media screen and (min-width: 1024px) {
+    .handy-mb-calendar,
+    .ip-bg-one-mob,
+    .used-technology-wrapper,
+    .iptv-mob-app,
+    .market-wrapper-mob {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        width: 100%;
+        overflow: hidden;
+    }
+    .back-link {
+        left: 5vw;
+    }
+    .header-navbar,
+    .ip-bg-one,
+    .iptv-used-tech-img,
+    .iptv-app,
+    .market-wrapper {
+        display: none !important;
+    }
+.ip-bg-one-mob,
+.ip-bg-one-mob img {
+    width: 100vw;
+    height: 70vh;
+    /* height: 1403px; */
+    top: 1vh;
+    left: 0;
+    position: relative;
+    display: block;
+    z-index: 2;
+}
+    .ip-bg-two, .ip-bg-two img {
+        width: 66vw;
+        height: 59vh;
+        top: 9vh;
+    }
+    .case-upper-title {
+        color: black;
+    }
+    .project-info-wrapper {
+        top: 12%;
+    }
+    .case-industry {
+        top: 33%;
+    }
+    .case-industry .case-upper-title {
+        color: #7BCBEB;
+    }
+    .case-social i {
+       color: black;
+    }
+    .case-social {
+        top: 48%;
+    }
+    .market-wrapper-mob {
+        bottom: 42%;
+    }
+    .project-features {
+         right: 0;
+        left: 7vw;
+        top: 80vh;
+    }
+    .ip-main-img, .ip-main-img img {
+        width: 139vw;
+        height: 58vh;
+        top: -15vh;
+        right: 4vw;
+    }
+    .project-title-ip, .project-description {
+        top: 24vw;
+        color: black !important;
+    }
+    .tech-title-ip {
+        top: 34vw;
+    }
+
+    .teck-column {
+        margin: 0px 21px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+    }
+
+
+    .bottom-bar {
+        padding-left: 8vw;
+        padding-top: 8vw;
+    }
+    .bottom-bar span {
+        font-size: 21px;
+    }
+    .bottom-bar p {
+        font-size: 14px;
+        top: 2vw;
+        margin-bottom: 4vh;
+    }
+    .some-button {
+        margin-bottom: 4vh;
+    }
+    .used-technology-block {
+        /* width: 50%; */
+        margin: 25% 4vw auto 4vw;
+        width: 100%;
+        /* text-align: center; */
+    }
+    .ip-home img {
+        width: 114%;
+        height: 170vh;
+        /* top: 7.8vh; */
+        left: -7vw;
+        bottom: 0;
+    }
+    .ip-page, .ip-page img {
+        width: 190vw;
+        height: 52vh;
+        /* top: 7.8vh; */
+        left: 0;
+        /* width: 959px; */
+        /* height: 527px; */
+        /* top: 5.8vh; */
+        position: relative;
+        display: block;
+        /* margin: 0 auto; */
+    }
+    .iptv-sub-text {
+        width: 90%;
+    }
+    .project-title-ip, .project-description {
+        top: 45vw;
+    }
+    .project-description {
+        margin: 20px auto 15vh;
+        width: 75%;
+    }
+    .iptv-stream,
+    .iptv-stream img {
+        width: 72vw;
+        height: 62vh;
+        /* top: 7.8vh; */
+        left: 0;
+        /* width: 270px; */
+        /* height: 414px; */
+        /*top: 5.8vh;*/
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+    .project-features-sub-text {
+        top: 2.7vh;
+    }
+
+}
+@media screen and (min-width: 400px) and (max-width: 420px) {
+    .teck-column {
+        margin: 0 27px;
+        z-index: 9;
+        position: relative;
+    }
+}
+@media screen and (max-width: 320px) {
+    .handy-background-block {
+        margin-bottom: 97vh;
+    }
+    .project-title {
+        font-size: 32px;
+    }
+    .teck-column {
+        margin: 0 11px;
+        z-index: 9;
+        position: relative;
+    }
+    .app-store {
+        top: 32px;
+    }
+    .google-play, .app-store {
+        width: 82px;
+        height: 28px;
+    }
+
+
+
+}

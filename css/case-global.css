@@ -1,0 +1,403 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #F9F9F9;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    line-height: 50px;
+    right: 0;
+    left: 0;
+    z-index: 990;
+}
+
+.header-navbar {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.navbar-item {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Sailec-Medium';
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+}
+.header-navbar .active {
+    padding-bottom: 14px;
+    border-bottom: 3px solid white;
+}
+.navbar-item:hover,
+.navbar-item.active {
+    color: white;
+    text-decoration: none;
+    /*padding-bottom: 14px;*/
+    /*border-bottom: 3px solid white;*/
+    padding-bottom: 11px;
+    border-bottom: 4px solid white;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: unset;
+}
+
+.back-link {
+    position: fixed;
+    left: 3vw;
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin-top: 7.5px;
+    cursor: pointer;
+}
+.back-link img {
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+.project-info-wrapper {
+    /*top: 15%;*/
+    top: 17%;
+}
+.project-info-wrapper a {
+    font-family: 'Sailec';
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 900;
+}
+.project-info-wrapper a:hover {
+    font-family: 'Sailec';
+    font-size: 15px;
+    color: white;
+    text-decoration: white !important;
+}
+.case-industry {
+    position: absolute;
+    left: 12%;
+    top: 47%;
+    color: white;
+}
+.case-industry span {
+    font-size: 15px;
+    font-family: 'Sailec';
+    display: block;
+}
+.case-social {
+    position: absolute;
+    left: 12%;
+    top: 57%;
+    color: white;
+}
+.case-social i {
+    padding-top: 10px;
+    padding-right: 16px;
+}
+.case-upper-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+}
+.project-specialization {
+    margin-bottom: 10px;
+    display: block;
+}
+.feature-numeral {
+    margin: 0 auto;
+    width: max-content;
+    height: 220px;
+    position: relative;
+}
+.feature-number {
+    font-family: 'Sailec-Black';
+    font-size: 160px;
+    color: #5031A9;
+    opacity: .1;
+    display: block;
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.feature-numeral .project-title {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin: 0 -50% 0 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.project-features-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+/*.project-features {*/
+/*    position: absolute;*/
+/*    width: max-content;*/
+/*    !*right: 3vw;*!*/
+/*    !*top: 15vh;*!*/
+/*    right: 2vw;*/
+/*    top: 16vh;*/
+/*}*/
+.project-features-icon,
+.project-features-icon img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.project-features-text {
+color: black;
+    font-size: 16px;
+    font-family: 'Sailec';
+
+}
+.project-features-sub-text {
+color: black;
+    font-size: 12px;
+    font-family: 'Sailec';
+    position: relative;
+    top: 2vh;
+    right: 105px;
+}
+.project-features-item:first-of-type {
+    margin-top: 27px;
+}
+.nur-background-block .project-features-text {
+    color: white;
+}
+.nur-background-block .project-features-sub-text {
+    color: #A18BDF;
+}
+.r-168 {
+    right: 168px;
+}
+
+/*              -------------------------------------------------                COLORS              ------------------------------------------------------------------------------*/
+
+.nur-bg {
+    background-color: #40248F !important;
+}
+.nur-contact-btn-bg {
+    background-color: #5031A9 !important;
+}
+.iptv-contact-btn-bg {
+    background-color: #009AD6 !important;
+}
+.handyman-bg {
+    background-color: #FF8000 !important;
+}
+.iptv-bg {
+    background-color: #046F9A !important;
+}
+.influenzy-bg {
+    background-color: #0D71E3 !important;
+}
+.lider-bg {
+    background-color: #0091B9 !important;
+}
+.moygab-bg {
+    background-color: #AF0030 !important;
+}
+
+/*              -------------------------------------------------                ICONS-TECH              ------------------------------------------------------------------------------*/
+
+.teck-column {
+    margin: 0 70px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.tech-icon-wrapper {
+    text-align: center;
+    margin-bottom: 25%;
+}
+
+.teck-column-title {
+    font-size: 17px;
+    font-family: 'Sailec-Bold';
+    color: black;
+    margin-bottom: 12%;
+    display: block;
+}
+.tech-title {
+    font-size: 15px;
+    font-family: 'Sailec';
+    color: black;
+}
+.tech-icon {
+    margin: 0 auto 7px;
+}
+.laravel-orm {
+    background-image: url(../images/icon-laravel-orm.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70px;
+    height: 47px;
+    -webkit-background-size: 70px;
+    background-size: 70px;
+}
+.json-icon {
+    background-image: url(../images/icon-json.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 94px;
+    height: 30px;
+    -webkit-background-size: 94px;
+    background-size: 94px;
+    margin-bottom: -4%;
+}
+.jquery-icon {
+    background-image: url(../images/icon-jquery.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 99px;
+    height: 21px;
+    -webkit-background-size: 99px;
+    background-size: 99px;
+    /*margin-bottom: -4%;*/
+}
+.html-css-icon {
+    background-image: url(../images/icon-css-html.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 78px;
+    height: 50px;
+    -webkit-background-size: 78px;
+    background-size: 78px;
+}
+.laravel-mix {
+    background-image: url(../images/icon-laravel-mix.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 57px;
+    height: 55px;
+    -webkit-background-size: 57px;
+    background-size: 57px;
+}
+.react-icon {
+    background-image: url(../images/icn-react.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 53px;
+    -webkit-background-size: 60px;
+    background-size: 60px;
+}
+.postgr-icon {
+    background-image: url(../images/icon-post.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 42px;
+    -webkit-background-size: 40px;
+    background-size: 40px;
+}
+.java-icon {
+    background-image: url(../images/icon-java.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 82px;
+    -webkit-background-size: 50px;
+    background-size: 50px;
+}
+.swift-icon {
+    background-image: url(../images/icon-swift.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 39px;
+    height: 35px;
+    -webkit-background-size: 39px;
+    background-size: 39px;
+}
+.redis-icon {
+    background-image: url(../images/icon-redis.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 46px;
+    height: 46px;
+    -webkit-background-size: 46px;
+    background-size: 46px;
+}
+.op-cache-icon {
+    background-image: url(../images/icon-op-cache-php.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 104px;
+    height: 61px;
+    -webkit-background-size: 104px;
+    background-size: 104px;
+}
+.vue-icon {
+    background-image: url(../images/icon-vue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 43px;
+    -webkit-background-size: 50px;
+    background-size: 50px;
+}
+
+.bottom-bar {
+    padding-left: 20vw;
+    padding-top: 1vw;
+    margin-top: 10vw;
+    background-color: #1C1F24;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*background-color: #5031A9;*/
+}
+.bottom-bar span,
+.technology-bar span {
+    font-size: 33px;
+    font-family: 'Sailec-Light';
+    /*color: black;*/
+    color: white;
+    display: block;
+}
+.bottom-bar p {
+    font-size: 19px;
+    font-family: 'Sailec-Light';
+    /*color: black;*/
+    color: white;
+    opacity: .5;
+    position: relative;
+    top: .3vw;
+}
+.some-button {
+    font-size: 15px;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    display: inline-block;
+    /*font-size: 1.1vw;*/
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 11px 25px;
+    /*padding: .7vw 1.8vw;*/
+    -webkit-box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.38);
+    box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.38);
+    background-color: #fff;
+
+    /*position: absolute;*/
+    /*bottom: 20%;*/
+    /*left: 7%;*/
+    font-family: 'Sailec';
+}
+.some-button:hover {
+    color: black;
+}
+.some-button i {
+    padding-left: 5px;
+    color: black;
+}

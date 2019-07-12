@@ -1,0 +1,611 @@
+.market-wrapper {
+    position: absolute;
+    bottom: 25%;
+    left: 12%;
+}
+
+.google-play,
+.app-store {
+    width: 95px;
+    height: 32px;
+    position: absolute;
+    z-index: 9;
+}
+
+.google-play img,
+.app-store img {
+    width: 100%;
+    height: 100%;
+}
+
+.google-play {
+    bottom: 7px;
+}
+.influenzy-background-block {
+    width: 56vw;
+    height: 89vh;
+    position: relative;
+    bottom: 2vw;
+    z-index: 1;
+    background-image: url(../images/inf-bg-one.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 56vw;
+    background-size: 56vw;
+}
+.ifluenzy-main-img img,
+.ifluenzy-main-img {
+    width: 62vw;
+    height: 91vh;
+    left: 10vw;
+    top: 3vh;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+.case-upper-title {
+    color: #9DBCDE;
+}
+.project-title {
+    font-family: 'Sailec-Black';
+    font-size: 35px;
+    color: #000;
+    margin: 12% auto 0 9vw;
+    width: max-content;
+}
+.project-description {
+    font-family: 'Sailec-Light';
+    font-size: 17px;
+    color: #000;
+    margin: 20px auto -4% 9vw;
+    width: 50%;
+    text-align: left;
+}
+.used-technology-block {
+    /*width: 50%;*/
+    margin: 3% auto auto 9vw;
+    /*text-align: center;*/
+    z-index: 900;
+    position: relative;
+}
+.teck-column:first-of-type {
+    margin-left: 0;
+}
+.teck-column:last-of-type {
+    margin-right: 0;
+}
+.project-features {
+    position: absolute;
+    width: max-content;
+    left: 72vw;
+    top: 15vh;
+}
+.inf-bg-two-wrapper,
+.inf-bg-two-wrapper img {
+    position: absolute;
+    right: 0;
+    width: 276px;
+    width: 19vw;
+    height: 1472px;
+    height: 191vh;
+    top: 28%;
+
+}
+.feature-numeral .project-title {
+    margin: 0 -50% 0 0;
+}
+.influenzy-item {
+    margin: 9% auto 0;
+}
+.influenzy-sub-text {
+    font-family: 'Sailec-Light';
+    font-size: 17px;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    z-index: 900;
+}
+.types-wrapper {
+    display:  flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0 auto;
+    width: max-content;
+}
+.types-item {
+    margin: 0 85px;
+}
+.influenzy-text {
+    font-family: 'Sailec-Bold';
+    font-size: 17px;
+    color: #000;
+    display: block;
+    margin: 0 auto 16px;
+    width: max-content;
+    text-align: center;
+    position: relative;
+    z-index: 900;
+}
+.types-item img {
+    display: block;
+    margin: 58px auto 29px;
+    width: 14vw;
+    height: 26vh;
+}
+.inf-img {
+    border-radius: 26px;
+    border: 19px solid #EBEBEB;
+    width: 58vw;
+    /* width: 832px; */
+    /*height: 464px;*/
+    height: 63vh;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    z-index: 900;
+}
+.inf-img img {
+    width: 100%;
+    height: 100%;
+}
+.inf-details {
+    width: 58vw;
+    /* width: 832px; */
+    /*height: 811px;*/
+    height: 106vh;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    z-index: 900;
+}
+.inf-details img {
+    width: 100%;
+    height: 100%;
+}
+.inf-favourites {
+    width: 58vw;
+    /* width: 832px; */
+    /*height: 507px;*/
+    height: 66vh;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    z-index: 900;
+}
+.inf-favourites img {
+    width: 100%;
+    height: 100%;
+}
+.additinal-margin-text {
+    margin-top: 56px;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 900;
+}
+.inf-bg-three,
+.inf-bg-three img {
+    position: absolute;
+    width: 100%;
+    height: 2928px;
+    height: 361vh;
+    height: 187%;
+    top: 130%;
+    left: 0%;
+    margin-bottom: 4vw;
+    display: none;
+}
+.inf-details {
+    width: 58vw;
+    /* width: 832px; */
+    /*height: 811px;*/
+    height: 106vh;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    z-index: 900;
+}
+.inf-details img {
+    width: 100%;
+    height: 100%;
+}
+.campaign-type {
+    width: 66vw;
+    margin: 0 auto 0 13%;
+    /*height: 506px;*/
+    height: 66vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 900;
+}
+.campaign-type img {
+    width: 100%;
+    height: 100%;
+}
+.campaign-inf {
+    width: 66vw;
+    margin: 0 auto 0 13%;
+    height: 1183px;
+    /*height: 106vh;*/
+    overflow: hidden;
+    position: relative;
+    z-index: 900;
+}
+.campaign-inf img {
+    width: 100%;
+    height: 100%;
+}
+.inf-monitoring,
+.inf-budget {
+    width: 66vw;
+    margin: 0 auto 0 13%;
+    /*height: 811px;*/
+    height: 106vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 900;
+}
+.inf-monitoring img,
+.inf-budget img {
+    width: 100%;
+    height: 100%;
+}
+.inf-finance {
+    width: 59vw;
+    /* width: 832px; */
+    /* height: 686px; */
+    height: 90vh;
+    overflow: hidden;
+    margin: 30px auto 0;
+    position: relative;
+    z-index: 900;
+}
+.inf-finance img {
+    width: 100%;
+    height: 100%;
+}
+.influencer-reg {
+    /*width: 1430px;*/
+    width: 100vw;
+    height: 137vh;
+    /* height: 1050px; */
+    overflow: hidden;
+    margin: 30px auto 0;
+    position: relative;
+    z-index: 900;
+}
+.influencer-reg img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 3%;
+}
+.influencer-profile {
+    /* width: 1430px; */
+    width: 100vw;
+    height: 139vh;
+    /* height: 1107px; */
+    overflow: hidden;
+    margin: 30px auto 0;
+    position: relative;
+    z-index: 900;
+}
+.influencer-profile img {
+    width: 104vw;
+    height: 120vh;
+    position: absolute;
+    left: -7.1%;
+}
+.influencer-accept {
+    /*width: 726px; */
+width: 51vw;
+    height: 81vh;
+    /* height: 624px; */
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    z-index: 900;
+}
+.influencer-accept img {
+    width: 100%;
+    height: 100%;
+}
+.influencer-campaign-det {
+    /*width: 1045px; */
+width: 72vw;
+    height: 120vh;
+    /* height: 923px; */
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    z-index: 900;
+    right: 5%;
+}
+.influencer-campaign-det img {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 1024px) {
+    .handy-mb-calendar,
+    .inf-details-mob,
+    .campaign-type-mob,
+    .influenzy-sub-text-details,
+    .campaign-inf-mob,
+    .inf-budget-mob {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        width: 100%;
+        overflow: hidden;
+    }
+    .project-features-sub-text {
+        top: 2.7vh;
+    }
+    .back-link {
+        left: 5vw;
+    }
+    .header-navbar,
+    .inf-details,
+    .campaign-type,
+    .inf-monitoring,
+    .inf-budget,
+    .campaign-inf {
+        display: none;
+    }
+    .ifluenzy-main-img img, .ifluenzy-main-img {
+        width: 215vw;
+        height: 85vh;
+        left: 3vw;
+        top: 14.5vh;
+    }
+    .influenzy-background-block {
+        width: 122vw;
+        height: 99vh;
+        position: relative;
+        bottom: 12vw;
+        z-index: 1;
+        background-image: url(../images/inf-bg-one.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: 56vw;
+        background-size: 150vw;
+        margin-bottom: 125vh;
+        background-color: #0D71E3;
+    }
+    .project-info-wrapper {
+        left: 5%;
+    }
+    .case-industry {
+        left: 5%;
+        top: 41%;
+    }
+    .case-social {
+        left: 5%;
+        top: 51%;
+    }
+    .market-wrapper {
+        bottom: 30%;
+        left: 6%;
+    }
+    .project-features {
+        position: absolute;
+        left: 9vw;
+        top: 101vh;
+    }
+    .inf-details-mob {
+        width: 182vw;
+        height: 95vh;
+        overflow: hidden;
+        position: relative;
+        z-index: 900;
+        left: 4vw;
+    }
+    .inf-details-mob img {
+        width: 100%;
+        height: 100%;
+    }
+    .types-item {
+        margin: 0;
+    }
+    .teck-column:last-of-type {
+        margin-left: 0;
+    }
+
+    .teck-column {
+        margin: 0 21px;
+    }
+    .inf-budget-mob img,
+    .campaign-inf-mob img,
+    .campaign-type-mob img,
+    .influencer-accept img,
+    .influencer-campaign-det img  {
+        width: 100%;
+        height: 100%;
+    }
+    .inf-budget-mob {
+        overflow: hidden;
+        position: relative;
+        width: 155vw;
+        height: 80vh;
+        z-index: 900;
+        left: 9vw;
+    }
+    .campaign-inf-mob {
+        overflow: hidden;
+        position: relative;
+        width: 155vw;
+        height: 130vh;
+        z-index: 900;
+        left: 9vw;
+    }
+    .campaign-type-mob {
+        overflow: hidden;
+        position: relative;
+        width: 155vw;
+        height: 65vh;
+        z-index: 900;
+        left: 9vw;
+    }
+    .additinal-margin-text {
+        color: #000 !important;
+    }
+    #campaigns .additinal-margin-text {
+        position: relative;
+        z-index: 901;
+        margin: 0;
+        left: 28vw;
+        top: 10vh;
+    }
+   #campaigns .additinal-margin-text:last-of-type {
+        display: none;
+    }
+    .inf-finance {
+        overflow: hidden;
+        position: relative;
+        width: 155vw;
+        height: 70vh;
+        z-index: 900;
+        left: 9vw;
+        margin-top: 16px;
+    }
+    .feature-numeral .project-title {
+        width: 90vw;
+        top: 50%;
+    }
+    .influencer-reg {
+        /* width: 1430px; */
+        width: 200vw;
+        height: 85vh;
+        /* height: 1050px; */
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+        z-index: 900;
+        left: -50vw;
+    }
+    .influencer-profile,
+    .influencer-profile img {
+    width: 210vw;
+        height: 81vh;
+        overflow: hidden;
+        margin: 0 auto  -15vh;
+        position: relative;
+        z-index: 899;
+        left: -32.3vw;
+    }
+    .influencer-accept{
+        width: 120vw;
+        height: 58vh;
+        overflow: hidden;
+        margin: 7vh auto 0;
+        position: relative;
+        z-index: 111111918;
+        left: -9.3vw;
+    }
+    .influencer-campaign-det {
+        width: 170vw;
+        height: 80vh;
+        overflow: hidden;
+        margin: 7vh auto -15vh;
+        position: relative;
+        z-index: 111111918;
+        left: -46.7vw;
+    }
+    .inf-reg-text {
+        position: relative;
+        top: 7vh;
+    }
+    .influenzy-mob-text {
+        font-size: 15px;
+    }
+
+
+
+
+
+
+    .bottom-bar {
+        padding-left: 8vw;
+        padding-top: 8vw;
+        margin-top: 15vh;
+    }
+    .bottom-bar span {
+        font-size: 21px;
+    }
+    .bottom-bar p {
+        font-size: 14px;
+        top: 2vw;
+        margin-bottom: 4vh;
+    }
+    .some-button {
+        margin-bottom: 4vh;
+    }
+    .used-technology-block {
+        /* width: 50%; */
+        margin: 3% 4vw auto 4vw;
+        /* text-align: center; */
+    }
+    .inf-bg-two-wrapper, .inf-bg-two-wrapper img {
+        position: absolute;
+        right: 0;
+        /*width: 276px;*/
+        width: 23vw;
+        /*height: 1472px;*/
+        height: 75vh;
+        top: 83%;
+    }
+    .influenzy-sub-text {
+        width: 90%;
+    }
+    .types-wrapper {
+        flex-direction: column;
+    }
+    .types-item img {
+        width: 48vw;
+        height: 26vh;
+    }
+    .project-description {
+        margin: 3vh 9vw 10vh 9vw;
+        width: auto;
+        text-align: left;
+    }
+    .inf-img {
+        width: 165vw;
+        height: 55vh;
+        z-index: 900;
+        left: 9vw;
+    }
+
+}
+@media screen and (min-width: 400px) and (max-width: 420px) {
+    .teck-column {
+        margin: 0 27px;
+        z-index: 9;
+        position: relative;
+    }
+    .influenzy-background-block {
+        margin-bottom: 115vh;
+    }
+}
+@media screen and (max-width: 320px) {
+    .handy-background-block {
+        margin-bottom: 97vh;
+    }
+    .project-title {
+        font-size: 32px;
+    }
+    .teck-column {
+        margin: 0 11px;
+        z-index: 9;
+        position: relative;
+    }
+    .influenzy-background-block {
+        margin-bottom: 147vh;
+    }
+}

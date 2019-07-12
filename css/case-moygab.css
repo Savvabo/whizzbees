@@ -1,0 +1,590 @@
+.moygab-background-one-wrapper,
+.moygab-background-one-wrapper img {
+    /*width: 838px;*/
+    /*height: 838px;*/
+    width: 58vw;
+    height: 109vh;
+}
+
+.mygar-main-img,
+.mygar-main-img img {
+    width: 50vw;
+    height: 94vh;
+    /* width: 718px; */
+    /* height: 718px; */
+    display: block;
+    position: absolute;
+    top: 51%;
+    left: 48%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-features {
+    position: absolute;
+    width: max-content;
+    right: 3vw;
+    top: 11vh;
+}
+
+.project-title {
+    font-family: 'Sailec-Black';
+    font-size: 35px;
+    color: #000;
+    margin: 12% auto 0 9vw;
+    width: max-content;
+    position: relative;
+    z-index: 900;
+}
+
+.project-description {
+    font-family: 'Sailec-Light';
+    font-size: 17px;
+    color: #000;
+    margin: 20px auto -4% 9vw;
+    width: 50%;
+    text-align: left;
+}
+
+.used-technology-block {
+    /*width: 50%;*/
+    margin: 3% auto auto 9vw;
+    /*text-align: center;*/
+}
+
+.teck-column:first-of-type {
+    margin-left: 0;
+}
+
+.case-upper-title {
+    color: #FFD2DE;
+}
+
+.market-wrapper {
+    position: absolute;
+    bottom: 31%;
+    left: 12%;
+}
+
+.google-play,
+.app-store {
+    width: 95px;
+    height: 32px;
+    position: absolute;
+    z-index: 9;
+}
+
+.google-play img,
+.app-store img {
+    width: 100%;
+    height: 100%;
+}
+
+.google-play {
+    bottom: 7px;
+}
+
+.project-info-wrapper {
+    top: 13%;
+}
+
+.case-social {
+    top: 54%;
+}
+
+.case-industry {
+    top: 42%;
+}
+
+.moygab-background-block {
+    margin-bottom: -17%;
+}
+
+.moygab-background-two-wrapper,
+.moygab-background-two-wrapper img {
+    /*width: 447px;*/
+    /*height: 895px;*/
+    width: 31vw;
+    height: 116vh;
+    position: absolute;
+    right: 0;
+    top: 78%;
+}
+
+.feature-numeral {
+    height: 143px;
+}
+
+.feature-number {
+    line-height: 143px;
+}
+
+.moygab-item {
+    position: relative;
+    margin: 3% auto 0;
+
+}
+
+.moygab-text {
+    font-family: 'Sailec-Bold';
+    font-size: 17px;
+    color: #000;
+    display: block;
+    text-transform: uppercase;
+}
+
+.moygab-sub-text {
+    font-family: 'Sailec-Light';
+    font-size: 17px;
+    color: #000;
+    display: block;
+}
+
+.moygab-home-img,
+.moygab-home-img img {
+    /*width: 770px;*/
+    /*height: 1335px;*/
+    width: 53.5vw;
+    height: 174vh;
+    margin: 0 auto;
+    display: block;
+}
+
+.moygab-home-text div {
+    /*width: 236px;*/
+    width: 16vw;
+    position: absolute;
+    left: 6%;
+}
+
+.moygab-home-text span {
+    margin-bottom: 16px;
+}
+
+.home-text-one {
+    top: 22%;
+}
+
+.home-text-two {
+    top: 34%;
+}
+.home-text-three {
+    top: 49%;
+
+}
+.home-text-four {
+    top: 67%;
+}
+
+.home-text-five {
+    top: 79%;
+
+}
+.moygab-item-search span,
+.moygab-item-search p {
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    text-align: center;
+}
+.moy-search-one,
+.moy-search-one img{
+    /*width: 864px;*/
+    /*height: 589px;*/
+    width: 60vw;
+    height: 76.5vh;
+    margin: 16px auto 0;
+
+}
+.moy-search-two,
+.moy-search-two img {
+    /*width: 832px;*/
+    /*height: 557px;*/
+    width: 58vw;
+    height: 52vh;
+    margin: 2vh auto 8vh;
+
+}
+.moy-search-four {
+    width: 54vw;
+    height: 101vh;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.moy-search-three {
+    height: 155vh;
+    width: 61vw;
+    /*height: 1188px;*/
+    /*width: 874px;*/
+    margin: 0 auto;
+    display: block;
+    z-index: 9;
+    position: relative;
+}
+
+.moy-search-three-wrapper {
+    position: relative;
+    margin: -10% auto 0;
+    z-index: 9;
+}
+.moy-search-two-text {
+    position: relative;
+    bottom: 120px;
+    text-transform: none !important;
+}
+.moy-search-two-text span {
+    margin-bottom: 8px;
+}
+.moygab-bg-three,
+.moygab-bg-three img {
+    width: 100%;
+    /*height: 300vh;*/
+    height: 2993px;
+    position: absolute;
+    top: 106%;
+    z-index: 1;
+    display: none;
+}
+.moygab-product-text div {
+    width: 193px;
+    /*width: 16vw;*/
+    position: absolute;
+    right: 6%;
+}
+
+.moygab-product-text span {
+    margin-bottom: 5px;
+}
+.moygab-product-text span,
+.moygab-product-text p {
+    /*color: white;*/
+    color: black;
+    text-transform: none !important;
+    font-size: 16px;
+}
+.product-text-one {
+    top: 29%;
+}
+
+.product-text-two {
+    top: 46%;
+}
+.product-text-three {
+    top: 61%;
+
+}
+.product-text-four {
+    top: 73%;
+}
+
+.product-text-five {
+    top: 79%;
+}
+.product-text-six {
+    top: 87%;
+}
+.product-img,
+.product-img img {
+    margin: 40px auto 0 7%;
+    display: block;
+    width: 67vw;
+    height: 110vh;
+}
+.moygab-item-product {
+    z-index: 7;
+}
+.product-sub-text {
+    margin: 0 auto;
+    width: max-content;
+    text-align: center;
+}
+.member-img,
+.member-img img {
+    margin: 37px auto 0 7%;
+    display: block;
+    width: 67vw;
+    /*height: 602px;*/
+    height: 79vh;
+}
+.upload-img,
+.upload-img img {
+    margin: 37px auto 0 7%;
+    display: block;
+    width: 67vw;
+    /*height: 1129px;*/
+    height: 147vh;
+}
+.bot-img-one,
+.bot-img-one img {
+    margin: 37px auto 0;
+    display: block;
+    width: 56vw;
+    /* height: 393px; */
+    height: 51vh;
+}
+.bot-img-two,
+.bot-img-two img {
+    margin: 0 auto;
+    display: block;
+    width: 50vw;
+     /*width: 715px; */
+    height: 89vh;
+    /*height: 680px;*/
+}
+
+@media screen and (min-width: 1024px) {
+    .lider-member-mob,
+    .lider-member-sub-text,
+    .used-technology-wrapper,
+    .market-wrapper-mob,
+    .member-img-mob {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        width: 100%;
+        overflow: hidden;
+    }
+    .back-link {
+        left: 5vw;
+    }
+    .header-navbar,
+    .moy-search-two-text,
+    .lider-member-board-img,
+    .lider-member-tour-img,
+    .member-img {
+        display: none !important;
+    }
+
+    .project-info-wrapper,
+    .case-industry,
+    .case-social {
+        left: 5%;
+    }
+    .market-wrapper {
+        bottom: 35%;
+        left: 5%;
+    }
+
+    .project-info-wrapper {
+        top: 10%;
+    }
+    .case-industry {
+        top: 33%;
+    }
+    .case-social {
+        top: 48%;
+    }
+    .market-wrapper-mob {
+        bottom: 42%;
+    }
+    .project-features {
+        right: 0;
+        left: 7vw;
+        top: 80vh;
+    }
+    .moygab-background-one-wrapper, .moygab-background-one-wrapper img {
+        /* width: 838px; */
+        /* height: 838px; */
+        width: 100vw;
+        height: 75vh;
+        background-color: #F20042;
+    }
+    .mygar-main-img, .mygar-main-img img {
+        width: 90vw;
+        height: 51vh;
+        /* width: 718px; */
+        /* height: 718px; */
+        display: block;
+        position: relative;
+        top: -2vh;
+        left: 63vw;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+    .moygab-background-block {
+        margin-bottom: 57vh;
+    }
+    .project-description {
+        width: 82%;
+        position: relative;
+        z-index: 900;
+    }
+
+    .teck-column {
+        margin: 0 21px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+    }
+    .teck-column:last-child {
+        margin-left: 0;
+    }
+    .moygab-home-img, .moygab-home-img img {
+        width: 112vw;
+        height: 160vh;
+        margin: 0 auto 0 -3vw;
+    }
+    .moygab-home-text div,
+    .moygab-product-text div {
+        /* width: 236px; */
+        width: inherit;
+        position: relative;
+        left: 0;
+        margin: 0 9vw 4vh;
+    }
+    #home .moygab-sub-text {
+        margin-bottom: 5vh;
+    }
+    #home .moygab-text {
+        text-transform: none;
+    }
+    .moygab-item-search span, .moygab-item-search p {
+        margin: 0 9vw;
+        width: inherit;
+    }
+    .moy-search-one, .moy-search-one img {
+        /* width: 864px; */
+        /*height: 589px;*/
+        width: 155vw;
+        height: 57.5vh;
+        margin: 16px auto 0;
+        position: relative;
+        left: 5vw;
+    }
+    .moy-search-four {
+        width: 113vw;
+        height: 77vh;
+        top: 25%;
+    }
+    .moy-search-three {
+        height: 115vh;
+        width: 125vw;
+        position: relative;
+        bottom: 24vh;
+        left: -10vw;
+    }
+    .moy-search-two, .moy-search-two img {
+        width: 160vw;
+        height: 55vh;
+        position: relative;
+        left: 3vw;
+    }
+    .moy-search-three-wrapper span,
+    .moy-search-three-wrapper p {
+        display: none;
+    }
+    .bot-img-two, .bot-img-two img {
+        width: 150vw;
+        height: 89vh;
+        position: relative;
+        left: -25vw;
+    }
+    .product-sub-text {
+        margin: 0 9vw;
+        width: inherit;
+        text-align: center;
+    }
+    .bot-img-one, .bot-img-one img {
+        margin: 37px auto 0 5vw;
+        display: block;
+        width: 155vw;
+        /* height: 393px; */
+        height: 47vh;
+    }
+    .upload-img, .upload-img img {
+        margin: 5vh auto 10vh -20vw;
+        display: block;
+        width: 185vw;
+        /* height: 1129px; */
+        height: 135vh;
+    }
+    .member-img-mob,
+    .member-img-mob  img {
+        margin: 3vh auto 3vh -23vw;
+        display: block;
+        width: 200vw;
+        /* height: 602px; */
+        height: 65vh;
+    }
+    #upload {
+        margin-top: 7vh;
+    }
+    .moygab-product-text span, .moygab-product-text p {
+        color: black;
+        margin-bottom: 0;
+    }
+    .product-img, .product-img img {
+        margin: 2vh auto 5vh -38vw;
+        width: 170vw;
+        height: 85vh;
+    }
+    .moy-search-three-wrapper {
+        margin: -13% auto -38%;
+    }
+
+    .bottom-bar {
+        padding-left: 8vw;
+        padding-top: 8vw;
+    }
+    .bottom-bar span {
+        font-size: 21px;
+    }
+    .bottom-bar p {
+        font-size: 14px;
+        top: 2vw;
+        margin-bottom: 4vh;
+    }
+    .some-button {
+        margin-bottom: 4vh;
+    }
+    .used-technology-block {
+        /* width: 50%; */
+        margin: 5vh 4vw auto 4vw;
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    .project-features-sub-text {
+        top: 2.7vh;
+    }
+
+}
+@media screen and (min-width: 400px) and (max-width: 420px) {
+    .teck-column {
+        margin: 0 27px;
+        z-index: 9;
+        position: relative;
+    }
+    .moygab-background-block {
+        margin-bottom: 47vh;
+    }
+}
+@media screen and (max-width: 320px) {
+
+    .project-title {
+        font-size: 30px;
+    }
+    .teck-column {
+        margin: 0 11px;
+        z-index: 9;
+        position: relative;
+    }
+    .google-play, .app-store {
+        width: 82px;
+        height: 28px;
+    }
+    .mygar-main-img, .mygar-main-img img {
+        top: 2vh;
+    }
+    .moygab-background-block {
+        margin-bottom: 72vh;
+    }
+}
